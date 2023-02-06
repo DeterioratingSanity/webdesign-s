@@ -1,7 +1,7 @@
 # webdesign
 2022-2023 FBLA Web Design Project - State Level
 
-## design changes
+### design changes
 
 1. add scroll to homepage blocks
 2. heading uniformity across pages
