@@ -7,3 +7,11 @@
 2. heading uniformity across pages
 3. scale fix for larger, smaller viewports
 4. reworks for reviews, products, contact per notes
+
+### schedule 
+
+- Pursuant to a due-date of the 15th of February, and first knowledge of our progression on the second
+
+4th, 5th - Reviewed and revised physical plans and documentation, found certain documents which had made their way into the bottom halves of old piles
+
+6th - Composed herein the readme, began thereafter upon the transfer of code and domain to this repository
