@@ -150,16 +150,19 @@ margin:auto;
   z-index:1;
 }
 .reviewBlock{
-background-color: white;
-  border-radius: var(--radius-4);
-  box-shadow: var(--shadow-4);
-  font-family:var(--font-sans);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align:center;
-  margin-bottom:5vh;
-  padding:5px;
+    position:absolute;
+    height:20vh;
+    width:20vw;
+    margin:auto;
+    background-color: white;
+    border-radius: var(--radius-4);
+    box-shadow: var(--shadow-4);
+    font-family:var(--font-sans);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+  
 }
 .userIcon{
   height:40px;
@@ -193,18 +196,14 @@ background-color: white;
   .sect{
     overflow-Y:scroll;
   }
-  .reviewBlock{
-    position:absolute;
-    height:20vh;
-    width:20vw;
-    margin:auto;
-    background-color: white;
-    border-radius: var(--radius-4);
-    box-shadow: var(--shadow-4);
-    font-family:var(--font-sans);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align:center;
-  }
+background-color: white;
+  border-radius: var(--radius-4);
+  box-shadow: var(--shadow-4);
+  font-family:var(--font-sans);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  margin-bottom:5vh;
+  padding:5px;
 }
