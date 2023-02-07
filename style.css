@@ -207,9 +207,13 @@ background-color: white;
     text-align:center;
   }
 }
-@media screen and (max-width: 1050px) and (max-height: 680px){
+@media screen and (max-width: 1050px) and (max-height: 600px){
   .sect{
     overflow-Y:scroll;
   }
- 
+}
+@media screen and (max-width: 600px) and (max-height: 800px){
+  .sect{
+    overflow-Y:scroll;
+  }
 }
