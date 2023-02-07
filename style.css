@@ -129,7 +129,7 @@ margin:auto;
   z-index:10000;
 }
 .sect{
-  position:relative;top:50%;left:50%;transform: translate(-50%,-50%);
+  position:absolute;top:50%;left:50%;transform: translate(-50%,-50%);
   height:50vh;
   width:50vw;
   min-width:400px;
