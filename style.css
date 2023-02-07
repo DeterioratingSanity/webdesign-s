@@ -146,10 +146,10 @@ margin:auto;
   padding:1em 1.5em;
 }
 #calendar{
-  margin:auto; 
+  margin:auto;
   z-index:1;
 }
- 
+
 .reviewBlock{
 background-color: white;
   border-radius: var(--radius-4);
@@ -191,7 +191,7 @@ background-color: white;
     font-size: 6vmin;
   }
 }
-@media screen and (min-width: 1020px) and (min-height:620px){
+@media screen and (min-width: 1020px) and (min-height:780px){
   .reviewBlock{
     position:absolute;
     height:20vh;
@@ -207,12 +207,12 @@ background-color: white;
     text-align:center;
   }
 }
-@media screen and (max-width: 1020px) and (max-height: 800px){
+@media screen and (max-width: 800px) and (max-height: 1020px){
   .sect{
     overflow-Y:scroll;
   }
 }
-@media screen and (max-width: 800px) and (max-height: 1020px){
+@media screen and (max-height: 780px){
   .sect{
     overflow-Y:scroll;
   }
