@@ -161,6 +161,23 @@ background-color: white;
   margin-bottom:5vh;
   padding:5px;
 }
+.userIcon{
+  height:40px;
+  border-radius: var(--radius-round);
+  margin:5px;
+}
+#iconHomeFirst{
+  content: url('./usericon/iconBlue.svg');
+  border: 5px solid rgb(53, 197, 255);
+}
+#iconHomeSecond{
+  content: url('./usericon/iconOrange.svg');
+  border: 5px solid rgb(255, 87, 52);
+}
+#iconHomeThird{
+  content: url('./usericon/iconPurple.svg');
+  border: 5px solid rgb(139, 53, 255);
+}
 @media screen and (max-width: 900px){
   .heroText{
     font-size:12vmin;
