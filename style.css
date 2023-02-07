@@ -150,20 +150,17 @@ margin:auto;
   z-index:1;
 }
 .reviewBlock{
-    position:absolute;
-    height:20vh;
-    width:20vw;
-    margin:auto;
     background-color: white;
-    border-radius: var(--radius-4);
-    box-shadow: var(--shadow-4);
-    font-family:var(--font-sans);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align:center;
-  
-}
+      border-radius: var(--radius-4);
+      box-shadow: var(--shadow-4);
+      font-family:var(--font-sans);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align:center;
+      margin-bottom:5vh;
+      padding:5px;
+    }
 .userIcon{
   height:40px;
   border-radius: var(--radius-round);
@@ -190,20 +187,24 @@ margin:auto;
   }
 }
 @media screen and (min-width: 680px) and (min-height:600px){
-  
+      
 }
 @media screen and (max-width: 680px) and (max-height: 600px){
   .sect{
     overflow-Y:scroll;
-  }.reviewBlock{
-background-color: white;
-  border-radius: var(--radius-4);
-  box-shadow: var(--shadow-4);
-  font-family:var(--font-sans);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align:center;
-  margin-bottom:5vh;
-  padding:5px;
+  }
+  .reviewBlock{
+    position:absolute;
+    height:20vh;
+    width:20vw;
+    margin:auto;
+    background-color: white;
+    border-radius: var(--radius-4);
+    box-shadow: var(--shadow-4);
+    font-family:var(--font-sans);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+  
 }
