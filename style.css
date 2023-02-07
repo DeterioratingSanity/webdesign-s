@@ -141,7 +141,6 @@ margin:auto;
   border-radius: var(--radius-4);
   box-shadow: var(--shadow-4);  /* inner-shadow? */
   font-family:var(--font-sans);
-  overflow-y: visible;
 }
 .holder{
   padding:1em 1.5em;
@@ -207,19 +206,14 @@ background-color: white;
     justify-content: center;
     text-align:center;
   }
+}
+@media screen and (max-width: 1020px) and (max-height: 800px){
   .sect{
     overflow-Y:scroll;
   }
 }
-/*
-@media screen and (max-width: 1020px) /and (max-height: 800px)/{
+@media screen and /(max-width: 800px) and (max-height: 1020px){
   .sect{
     overflow-Y:scroll;
   }
 }
-@media screen and /(max-width: 800px) and /(max-height: 1020px){
-  .sect{
-    overflow-Y:scroll;
-  }
-}
-*/
