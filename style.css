@@ -179,6 +179,7 @@ background-color: white;
   content: url('./usericon/iconPurple.svg');
   border: 5px solid rgb(139, 53, 255);
 }
+
 @media screen and (max-width: 900px){
   .heroText{
     font-size:12vmin;
