@@ -116,6 +116,18 @@ margin:auto;
 .one {
   background-image: var(--gradient-2);
 }
+.two {
+  background-image: var(--gradient-5);
+  z-index:10000;
+}
+.three {
+  background-image: var(--gradient-4);
+  z-index:10000;
+}
+.four {
+  background-image: var(--gradient-1);
+  z-index:10000;
+}
 .sect{
   position:relative;
   /*overflow-Y:scroll;*/
@@ -134,6 +146,10 @@ margin:auto;
 }
 .holder{
   padding:1em 1.5em;
+}
+#calendar{
+  margin:auto; 
+  z-index:1;
 }
 @media screen and (max-width: 900px){
   .heroText{
