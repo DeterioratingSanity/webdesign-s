@@ -15,3 +15,5 @@
 4th, 5th - Reviewed and revised physical plans and documentation, found certain documents which had made their way into the bottom halves of old piles
 
 6th - Composed herein the readme, began thereafter upon the transfer of code and domain to this repository
+
+7th - Scroll implemented into the homepage, measures taken towards mechanical uniformity
