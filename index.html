@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Doggone Good</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <!--Libraries x Templates-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="lub/main.css">
+        <script src="lib/main.js"></script>
+
+        <script>
+    			document.addEventListener('DOMContentLoaded',function(){
+    				var calendarElement = document.getElementById('calendar');
+    				var calendar = new FullCalendar.Calendar(calendarElement, {
+    						fixedWeekCount: false,
+    						// Because this library camel-cases the user facing buttons
+    						buttonText: {
+    							today: 'Today',
+    							dayGridMonth: 'Month',
+    							dayGrid: 'Day'
+    						},
+    						// Screen-Size Dependent Display Functionality
+    						headerToolbar: $(window).width() < 750 ? {left: 'title', center:'', right:''} : {left: 'title',	center: '', right: 'today prev,next dayGridMonth,dayGrid'},
+    						initialView: $(window).width() < 750 ? 'dayGrid' : 'dayGridMonth',
+    						height:'45vh',
+    					events: [
+    						{
+    							title: 'Dog Park Play Time',
+    							daysOfWeek: [0],
+    							startRecur: '2022-01-01',
+    							endRecur: '2023-12-31',
+    							backgroundColor: 'rgb(222,102,102)',
+    							borderColor: 'rgb(222,102,102)'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2022-01-02',
+    							end: '2022-01-03'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2022-02-06',
+    							end: '2022-02-07'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2022-03-06',
+    							end: '2022-03-07'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2022-04-03',
+    							end: '2022-04-04'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2022-05-01',
+    							end: '2022-05-02'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2022-06-05',
+    							end: '2022-06-06'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2022-07-03',
+    							end: '2022-07-04'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2022-08-07',
+    							end: '2022-08-08'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2022-09-04',
+    							end: '2022-02-07'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2022-10-02',
+    							end: '2022-10-03'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2022-11-06',
+    							end: '2022-11-07'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2022-12-04',
+    							end: '2022-12-05'
+    						},
+
+    						{
+    							title: 'Orientation Club',
+    							start: '2023-01-01',
+    							end: '2023-01-02'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2023-02-05',
+    							end: '2023-02-06'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2023-03-05',
+    							end: '2023-03-06'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2023-04-02',
+    							end: '2023-04-03'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2023-05-07',
+    							end: '2023-05-08'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2023-06-04',
+    							end: '2023-06-05'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2023-07-02',
+    							end: '2023-07-03'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2023-08-06',
+    							end: '2023-08-07'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2023-09-03',
+    							end: '2023-02-04'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2023-10-01',
+    							end: '2023-10-02'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2023-11-05',
+    							end: '2023-11-06'
+    						},
+    						{
+    							title: 'Orientation Club',
+    							start: '2023-12-03',
+    							end: '2023-12-04'
+    						},
+    						{
+    							title:'Training Seminar',
+    							daysOfWeek:[5],
+    							startRecur:'2022-01-01',
+    							endRecur:'2023-12-31',
+    							backgroundColor:'rgb(152, 224, 146)',
+    							borderColor:'rgb(152, 224, 146)'
+    						}
+    					]
+    				});
+    				calendar.render();
+    			});
+    		</script>
+  </head>
+
+  <body>
+      <div class="head">
+          <div class="logo" id="logoHead">
+            <p class="heroText">
+              <span class="heroFrame">D</span>oggone goo<span class="heroFrame">D</span>
+              <br>
+              <span id="underhead">dog walking service</span>
+            </p>
+          </div>
+
+          <div class="navDir">
+            ↓ scroll ↓
+          </div>
+      </div>
+
+      <div id="pinMaster">
+        <div id="pinContainer">
+          <section class="panel one">
+            <div class="sect">
+              <div class="holder">
+                <div id="calendar" style="margin:auto; z-index:1">
+							  </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+  </body>
+</html>
