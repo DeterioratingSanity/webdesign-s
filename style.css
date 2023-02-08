@@ -353,10 +353,10 @@ border-radius: var(--radius-5);
     color:white;
     font-weight:bold;
 	
-    position:fixed;
-
+    align-items: center;
+	/*
     top: 50%;
-    transform: translate(0,-50%);
+    transform: translate(0,-50%);*/
 }
 
 
