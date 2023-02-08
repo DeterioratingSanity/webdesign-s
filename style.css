@@ -323,8 +323,6 @@ border-radius: var(--radius-5);
   flex-grow: 1;
   border-radius: var(--radius-round);
 	
-	        top: 50%;
-	        transform: translate(0,-50%);
   /*padding:5px; /*if you can't fix it, make it look purposeful!*/
 }
 .navWrap{
@@ -332,6 +330,9 @@ border-radius: var(--radius-5);
   border-radius: var(--radius-round);
   margin:0 1vmax;
   cursor: pointer;
+	
+	        top: 50%;
+	        transform: translate(0,-50%);
 }
 .navWrap:nth-child(1){
   background-image: var(--gradient-1);
