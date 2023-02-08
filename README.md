@@ -3,7 +3,7 @@
 
 ### design changes
 
-1. add scroll to homepage blocks
+1. ~~add scroll to homepage blocks~~
 2. heading uniformity across pages
 3. scale fix for larger, smaller viewports
 4. reworks for reviews, products, contact per notes
@@ -16,4 +16,7 @@
 
 6th - Composed herein the readme, began thereafter upon the transfer of code and domain to this repository
 
-7th - Scroll implemented into the homepage, measures taken towards mechanical uniformity
+7th - Scroll implemented into the homepage, measures taken towards mechanical uniformity, calendar tooltips, first round of polish done on homeapge
+
+8th - Positioning and animation to prevent navbar offset, small-scale second round of homepage polishing
+
