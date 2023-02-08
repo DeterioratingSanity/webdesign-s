@@ -24,7 +24,8 @@ body{
   height:45vmin;
   aspect-ratio:1/1;
   margin:auto;
-  top:25vh;
+  top:50%;
+  transform: translate(0, -50%);
   line-height:8vmin;
 }
 #logoHead::after{
