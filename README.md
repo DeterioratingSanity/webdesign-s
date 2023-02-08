@@ -3,8 +3,7 @@
 
 ### design changes
 
-~~1. add scroll to homepage blocks~~
-
+1. ~~add scroll to homepage blocks~~
 2. heading uniformity across pages
 3. scale fix for larger, smaller viewports
 4. reworks for reviews, products, contact per notes
