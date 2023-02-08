@@ -255,6 +255,161 @@ background-color: white;
 			background-repeat: no-repeat;
 			background-size: cover;
   }
+
+
+.navOne{
+  background-image: var(--gradient-1);
+  border-radius: var(--radius-5);
+}
+.navWrap:hover .navOne{
+   background-image: var(--gradient-1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navTwo{
+    background-image: var(--gradient-27);
+  border-radius: var(--radius-5);
+}
+.navWrap:hover .navTwo{
+   background-image: var(--gradient-27);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navThree{
+    background-image: var(--gradient-25);
+  border-radius: var(--radius-5);
+}
+
+.navWrap:hover .navThree{
+   background-image: var(--gradient-25);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navFour{
+    background-image: var(--gradient-3);
+  border-radius: var(--radius-round);
+}
+
+.navWrap:hover .navFour{
+   background-image: var(--gradient-3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navFive{
+    background-image: var(--gradient-19);
+  border-radius: var(--radius-5);
+}
+
+.navWrap:hover .navFive{
+   background-image: var(--gradient-19);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navH{
+  background-image: var(--gradient-14);
+border-radius: var(--radius-5);
+}
+.navWrap:hover .navH{
+
+     background-image: var(--gradient-14);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav{
+  background-color:white;
+  display:flex;
+  flex-grow: 1;
+  border-radius: var(--radius-round);
+  /*padding:5px; /*if you can't fix it, make it look purposeful!*/
+}
+.navWrap{
+  padding: 10px;
+  border-radius: var(--radius-round);
+  margin:0 1vmax;
+  cursor: pointer;
+}
+.navWrap:nth-child(1){
+  background-image: var(--gradient-1);
+}
+.navWrap:nth-child(2){
+    background-image: var(--gradient-27);
+}
+.navWrap:nth-child(3){
+    background-image: var(--gradient-25);
+}
+.navWrap:nth-child(4){
+    background-image: var(--gradient-19);
+}
+.navWrap:nth-child(5){
+    background-image: var(--gradient-14);
+}
+.marquee {
+    overflow: hidden;
+    width:100%;
+    display:flex;
+    color:white;
+    font-weight:bold;
+}
+
+
+.marquee__inner {
+  display: flex;
+  -webkit-animation: navloop 40s linear infinite;
+          -moz-animation: navloop 40s linear infinite;
+          -o-animation: navloop 40s linear infinite;
+}
+.marquee .den {
+   font-family: var(--font-serif);
+   font-size: 7vmin;
+   padding: 1vw 2vw;
+}
+.den{
+  min-width:4em;
+  text-align:center;
+}
+.marquee:hover .marquee__inner {
+    animation-play-state: paused;
+}
+@-webkit-keyframes navloop {
+         0% {
+           transform: translateX(0%);
+         }
+
+         100% {
+           transform: translateX(-100%);
+         }
+       }
+
+       @-moz-keyframes navloop {
+         0% {
+           transform: translateX(0%);
+         }
+
+         100% {
+           transform: translateX(-100%);
+         }
+       }
+
+       @-o-keyframes navloop {
+         0% {
+           transform: translateX(0%);
+         }
+
+         100% {
+           transform: translateX(-100%);
+         }
+       }
+
+       @keyframes navloop {
+         0% {
+           transform: translateX(0%);
+         }
+
+         100% {
+           transform: translateX(-100%);
+         }
+       }
 @media screen and (max-width: 900px){
   .heroText{
     font-size:12vmin;
