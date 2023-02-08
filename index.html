@@ -11,7 +11,7 @@
     		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
     		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
 
-        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
     		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
@@ -257,38 +257,47 @@
         </section>
 
 	  <section class="panel two">
-	    <div class="sect">
-	       <div class="holder">
-		a
-	       </div>
-	    </div>
+        <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+           <div class="gallery-cell" id="displayFirst"></div>
+           <div class="gallery-cell" id="displaySecond"></div>
+           <div class="gallery-cell" id="displayThird"></div>
+         </div>
 	  </section>
 
 	  <section class="panel three">
 	    <div class="sect">
-	       <div class="holder">
-		a
+	       <div id="ownerPic" class="reviewBlock">
 	       </div>
+         <div id="ownerBox">
+              <span id="quote">
+							This is <span id="signature">John </span>,
+							our founder.
+							John started
+							Doggone Good
+							because he
+							<span style="font-weight:bold">loves</span> dogs!<br><br>
+							</span>
+          </div>
 	    </div>
 	  </section>
 
 	  <section class="panel four">
 	    <div class="sect">
 	       <div class="holder">
-		<span class="reviewBlock" style="top:-2.6vh; left:-2.6vw">
-			<span>Couldn't be more pleased with Doggone Good!</span>
-			<div class="userIcon" id="iconHomeFirst"></div>
-		</span>
-		<span class="reviewBlock" style="top:20vh; left:-2.6vw">
-			<span>A great solution for a busy family and an energetic pup!</span>
-			<div class="userIcon" id="iconHomeSecond"></div>
-		</span>
-		<span class="reviewBlock" style="top:-2.6vh; left:19.5vw">
-			<span>Clean facilities, caring workers - Perfect for any dog.</span>
-			<div class="userIcon" id="iconHomeThird"></div>
-		</span>
-		<img id="subImg" src='dogSilhouette.svg' style="">
-	       </div>
+		       <span class="reviewBlock" style="top:-2.6vh; left:-2.6vw">
+      			<span>Couldn't be more pleased with Doggone Good!</span>
+      			<div class="userIcon" id="iconHomeFirst"></div>
+      		</span>
+      		<span class="reviewBlock" style="top:20vh; left:-2.6vw">
+      			<span>A great solution for a busy family and an energetic pup!</span>
+      			<div class="userIcon" id="iconHomeSecond"></div>
+      		</span>
+      		<span class="reviewBlock" style="top:-2.6vh; left:19.5vw">
+      			<span>Clean facilities, caring workers - Perfect for any dog.</span>
+      			<div class="userIcon" id="iconHomeThird"></div>
+      		</span>
+      		<img id="subImg" src='dogSilhouette.svg' style="">
+	     </div>
 	    </div>
 	  </section>
 

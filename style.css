@@ -188,6 +188,73 @@ background-color: white;
     top:22vh;
     left:27vw;
   }
+  #ownerPic{
+    background-image:url(./owner.jpeg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:auto;
+    margin-top:4.6vh;
+    width:40%;
+    min-width:200px;
+    aspect-ratio: 1/1;
+
+  }#ownerBox{
+    width:50%;
+    text-align: center;
+  }
+  #quote{
+    position:relative;
+    left:50%;
+    top:2.6vh;
+    transform: translate(0,-50%);
+    font-size:4vmin;
+  }
+  #signature{
+    font-family:'Lucida Handwriting', cursive;
+    color:red;
+    font-weight:bold;
+  }.gallery {
+    top:22vh;
+  }
+
+  .gallery-cell {
+    position:relative;
+    height:50vh;
+    width:50vw;
+    margin:auto;
+    background-color: white;
+    border-radius: var(--radius-4);
+    box-shadow: var(--shadow-4);  /* inner-shadow? */
+    font-family:var(--font-sans);
+    margin:30px;
+  }
+
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }#displayFirst{
+    background-image: url(./walk.jpeg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+  }
+  #displaySecond{
+    background-image: url(./walk2.jpeg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+  }
+  #displayThird{
+    background-image: url(./walk3.jpeg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+  }
 @media screen and (max-width: 900px){
   .heroText{
     font-size:12vmin;
@@ -210,11 +277,36 @@ background-color: white;
     align-items: center;
     justify-content: center;
     text-align:center;
-  }#subImg{
+  }
+  #subImg{
       height:25vh;
       position:absolute;
       top:22vh;
       left:27vw;
+    }
+    #ownerPic{
+      margin-top:0;
+      margin-left: 0;
+      position:absolute;
+      top:-2.6vh;
+      left:-2.6vw;
+      background-image:url(./owner.jpeg);
+      background-position:center;
+      background-repeat:no-repeat;
+      background-size:cover;
+      height:40vh;
+      width:15vw;
+
+    }
+    #ownerBox{
+      width:30%;
+      text-align: left;
+
+    }#quote{
+      position:relative;
+      left:15vw;
+      top:5vh;
+      font-size:4vmin;
     }
 }
 @media screen and (max-width: 800px) and (max-height: 1020px){
