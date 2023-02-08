@@ -492,7 +492,18 @@ border-radius: var(--radius-5);
 #bioE{
 overflow-Y: scroll;
 	}
-	
+	 #ownerPic{
+    background-image:url(./owner.jpeg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:auto;
+    margin-top:4.6vh;
+    width:40%;
+    min-width:200px;
+    aspect-ratio: 1/1;
+
+  }
 	#ownerBox{
     width:50%;
     text-align: center;
