@@ -330,9 +330,6 @@ border-radius: var(--radius-5);
   border-radius: var(--radius-round);
   margin:0 1vmax;
   cursor: pointer;
-	
-	        top: 50%;
-	        transform: translate(0,-50%);
 }
 .navWrap:nth-child(1){
   background-image: var(--gradient-1);
@@ -355,6 +352,10 @@ border-radius: var(--radius-5);
     display:flex;
     color:white;
     font-weight:bold;
+    position:absolute;
+
+    top: 50%;
+    transform: translate(0,-50%);
 }
 
 
