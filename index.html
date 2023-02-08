@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tooltip.css">
     <!--Libraries x Templates-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
     		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
@@ -15,8 +16,14 @@
 
     		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
-        <link rel="stylesheet" href="lub/main.css">
-        <script src="lib/main.js"></script>
+        <script src="https://unpkg.com/tooltip.js/dist/umd/tooltip.min.js"></script>
+        <script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+
+        <link rel="stylesheet" href="lib/main.css">
+        <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.4/index.global.min.js"></script>
+
+        <script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+        <script src="https://unpkg.com/tooltip.js/dist/umd/tooltip.min.js"></script>
 
         <script>
     			document.addEventListener('DOMContentLoaded',function(){
@@ -29,139 +36,181 @@
     							dayGridMonth: 'Month',
     							dayGrid: 'Day'
     						},
+
+            //    eventClick: function(info) {
+            //        var eventObj = info.event;
+            //        alert('Title: ' + info.event.title + '\nDescription: ' + info.event.extendedProps.description );
+            //    },
+
     						// Screen-Size Dependent Display Functionality
     						headerToolbar: $(window).width() < 750 ? {left: 'title', center:'', right:''} : {left: 'title',	center: '', right: 'today prev,next dayGridMonth,dayGrid'},
     						initialView: $(window).width() < 750 ? 'dayGrid' : 'dayGridMonth',
     						height:'45vh',
-    					events: [
+
+                eventDidMount: function(info) {
+                  var tooltip = new Tooltip(info.el, {
+                    title: info.event.extendedProps.description,
+                    placement: 'top',
+                    trigger: 'hover',
+                    container: 'body'
+                  });
+                },
+
+              events: [
     						{
     							title: 'Dog Park Play Time',
     							daysOfWeek: [0],
     							startRecur: '2022-01-01',
     							endRecur: '2023-12-31',
     							backgroundColor: 'rgb(222,102,102)',
-    							borderColor: 'rgb(222,102,102)'
+    							borderColor: 'rgb(222,102,102)',
+                  description: 'Weekly hang-out for the doggone best dogs around!'
+
     						},
     						{
     							title: 'Orientation Club',
     							start: '2022-01-02',
-    							end: '2022-01-03'
+    							end: '2022-01-03',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2022-02-06',
-    							end: '2022-02-07'
+    							end: '2022-02-07',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2022-03-06',
-    							end: '2022-03-07'
+    							end: '2022-03-07',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2022-04-03',
-    							end: '2022-04-04'
+    							end: '2022-04-04',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2022-05-01',
-    							end: '2022-05-02'
+    							end: '2022-05-02',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2022-06-05',
-    							end: '2022-06-06'
+    							end: '2022-06-06',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2022-07-03',
-    							end: '2022-07-04'
+    							end: '2022-07-04',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2022-08-07',
-    							end: '2022-08-08'
+    							end: '2022-08-08',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2022-09-04',
-    							end: '2022-02-07'
+    							end: '2022-02-07',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2022-10-02',
-    							end: '2022-10-03'
+    							end: '2022-10-03',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2022-11-06',
-    							end: '2022-11-07'
+    							end: '2022-11-07',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2022-12-04',
-    							end: '2022-12-05'
+    							end: '2022-12-05',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
 
     						{
     							title: 'Orientation Club',
     							start: '2023-01-01',
-    							end: '2023-01-02'
+    							end: '2023-01-02',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2023-02-05',
-    							end: '2023-02-06'
+    							end: '2023-02-06',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2023-03-05',
-    							end: '2023-03-06'
+    							end: '2023-03-06',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2023-04-02',
-    							end: '2023-04-03'
+    							end: '2023-04-03',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2023-05-07',
-    							end: '2023-05-08'
+    							end: '2023-05-08',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2023-06-04',
-    							end: '2023-06-05'
+    							end: '2023-06-05',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2023-07-02',
-    							end: '2023-07-03'
+    							end: '2023-07-03',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2023-08-06',
-    							end: '2023-08-07'
+    							end: '2023-08-07',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2023-09-03',
-    							end: '2023-02-04'
+    							end: '2023-02-04',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2023-10-01',
-    							end: '2023-10-02'
+    							end: '2023-10-02',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2023-11-05',
-    							end: '2023-11-06'
+    							end: '2023-11-06',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title: 'Orientation Club',
     							start: '2023-12-03',
-    							end: '2023-12-04'
+    							end: '2023-12-04',
+                  description: 'Monthly meeting to introduce dogs to the building with their people around.'
     						},
     						{
     							title:'Training Seminar',
@@ -169,7 +218,8 @@
     							startRecur:'2022-01-01',
     							endRecur:'2023-12-31',
     							backgroundColor:'rgb(152, 224, 146)',
-    							borderColor:'rgb(152, 224, 146)'
+    							borderColor:'rgb(152, 224, 146)',
+                  description: 'Weekly open forum for anyone looking for dog-training tips and tricks.'
     						}
     					]
     				});
@@ -202,8 +252,9 @@
                 <div id="calendar" style="margin:auto; z-index:1">
 		</div>
               </div>
-            </div>
-          </section>
+                  </div>
+
+        </section>
 
 	  <section class="panel two">
 	    <div class="sect">
