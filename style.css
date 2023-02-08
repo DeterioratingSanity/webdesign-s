@@ -488,18 +488,21 @@ border-radius: var(--radius-5);
     overflow-Y:scroll;
   }
 }
-@media screen and (min-width: 1240px){
+@media screen and (max-width: 1240px){
 #bioE{
-	overflow-Y: scroll;
-	}#ownerBox{
-      width:30%;
-      text-align: left;
-
-    }#quote{
-      position:relative;
-      left:15vw;
-      top:5vh;
-      font-size:4vmin;
-    }
+overflow-Y: scroll;
+	}
+	
+	#ownerBox{
+    width:50%;
+    text-align: center;
+  }
+  #quote{
+    position:relative;
+    left:50%;
+    top:2.6vh;
+    transform: translate(0,-50%);
+    font-size:4vmin;
+  }
 	
 }
