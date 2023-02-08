@@ -488,7 +488,7 @@ border-radius: var(--radius-5);
     overflow-Y:scroll;
   }
 }
-@media screen and (max-width: 1240px){
+@media screen and (max-width: 1260px){
 #bioE{
 overflow-Y: scroll;
 	}
