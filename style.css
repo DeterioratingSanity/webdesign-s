@@ -359,6 +359,12 @@ border-radius: var(--radius-5);
   -webkit-animation: navloop 40s linear infinite;
           -moz-animation: navloop 40s linear infinite;
           -o-animation: navloop 40s linear infinite;
+	align-items: center
+		/*
+		
+  top: 50%;
+  transform: translate(0,-50%);
+		*/
 }
 .marquee .den {
    font-family: var(--font-serif);
@@ -368,8 +374,6 @@ border-radius: var(--radius-5);
 .den{
   min-height:1em;
   text-align:center;
-  top: 50%;
-  transform: translate(0,-50%);
 }
 .marquee:hover .marquee__inner {
     animation-play-state: paused;
