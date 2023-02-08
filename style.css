@@ -362,12 +362,14 @@ border-radius: var(--radius-5);
 }
 .marquee .den {
    font-family: var(--font-serif);
-   font-size: 3em;
+   font-size: 4em;
    padding: 1vw 2vw;
 }
 .den{
   min-height:1em;
   text-align:center;
+  top: 50%;
+  transform: translate(0,-50%);
 }
 .marquee:hover .marquee__inner {
     animation-play-state: paused;
