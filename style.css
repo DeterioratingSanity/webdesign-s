@@ -352,7 +352,7 @@ border-radius: var(--radius-5);
     display:flex;
     color:white;
     font-weight:bold;
-    position:absolute;
+    position:relative;
 
     top: 50%;
     transform: translate(0,-50%);
@@ -373,7 +373,7 @@ border-radius: var(--radius-5);
 }
 .marquee .den {
    font-family: var(--font-serif);
-   font-size: 4em;
+      font-size: 7vmin;
    padding: 1vw 2vw;
 }
 .den{
