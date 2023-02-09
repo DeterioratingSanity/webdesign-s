@@ -494,12 +494,18 @@ border-radius: var(--radius-5);
   text-align:center;
   font-size: var(--font-size-3);
   font-family:var(--font-sans);	
+  color:rgb(75, 75, 75 );
 }
+.package-Head{
+  padding-top:10px;
+  font-size: var(--font-size-5);
+  font-weight:bold;
+  color:rgb(75, 75, 75 );
+}	
 .package-Title{
   font-size: var(--font-size-4);
   font-weight:bold;
   color:rgb(75, 75, 75 );
-  padding-top:10px;
 }
 .contactRec{
   font-size: var(--font-size-3);
@@ -510,6 +516,7 @@ border-radius: var(--radius-5);
 	transition: 0.5s;
 	width: 50%;
 	margin: auto;
+  color:rgb(75, 75, 75 );
 }
 .small{
 	font-size: var(--font-size-1);
