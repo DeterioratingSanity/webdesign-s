@@ -421,6 +421,8 @@ border-radius: var(--radius-5);
 
 
 /* plans */
+
+
     #dropHead{
       position: relative;
       top: 0;
@@ -508,6 +510,9 @@ border-radius: var(--radius-5);
 	transition: 0.5s;
 	width: 50%;
 	margin: auto;
+}
+.small{
+	font-size: var(--font-size-1);
 }
 #contact-PackageOne:hover{
 	color:white;
