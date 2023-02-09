@@ -478,8 +478,7 @@ border-radius: var(--radius-5);
         margin-top:3em;
     }
     #packageOne{
-      box-shadow:7px 7px #9D00FF;
-      box-shadow:0 3px 7px black;
+      box-shadow:7px 7px #9D00FF, 0 3px 7px black;
     }
 
     #packageTwo{
@@ -487,8 +486,7 @@ border-radius: var(--radius-5);
     }
 
     #packageThree{
-      box-shadow:7px 7px #FF5F1F;
-      box-shadow:0 3px 7px black;
+      box-shadow:7px 7px #FF5F1F, 0 3px 7px black;
       padding-bottom:5vh;
     }
     .packageContent{
