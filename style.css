@@ -557,6 +557,7 @@ margin:10px;
   height: 100%;
   overflow: auto;
   background-color: rgba(71,59,56,0.4);
+	transition: 0.5s;
 }
 .modalContent{
   background-color: white;
@@ -573,12 +574,36 @@ margin:10px;
 #modalBox1  .modalContent{
   	box-shadow:7px 7px #9D00FF;
 }
+#modalBox1 .modalContent button{
+	
+	color:white;
+	background-color:#9D00FF;
+	border: 3px solid #9D00FF;
+	transition: 0.3s;
+}
+
 #modalBox2 .modalContent{
 	box-shadow:7px 7px #008443;
 }
+#modalBox2 .modalContent button{
+	color:white;
+	background-color:#008443;
+	border: 3px solid #008443;
+	transition: 0.3s;
+}
+
 #modalBox3 .modalContent{
       box-shadow:7px 7px #FF5F1F;
 }
+#modalBox3 .modalContent button{
+	color:white;
+	background-color:#FF5F1F;
+	border: 3px solid #FF5F1F;
+	transition: 0.3s;
+	
+}
+
+
 
 #modalStuff{
   padding:1em;
