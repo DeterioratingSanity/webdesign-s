@@ -22,11 +22,11 @@
     <div id="plans-Box">
         <div id="packageOne" class="plans-Package">
             <div class="packageContent">
-              <span class="package-Title"># per Week</span>
+              <span class="package-Title"># per Week</span><br><br><br>
               Two Walks / Day <br><br>
               Access to the Doggone Good Dogpark <br><br>
               Complementary Doggy Bag
-              <br><br>
+              <br><br><br><br>
               <div class="contantRec" id="contact-PackageOne">Book Here</div>
             </div>
 
@@ -60,7 +60,7 @@
 
         <div id="packageTwo" class="plans-Package">
             <div class="packageContent">
-                <span class="package-Title"># per Week</span>
+                <span class="package-Title"># per Week</span><br><br><br>
                 Two Walks / Day <br><br>
                 Access to the Doggone Good Dogpark <br><br>
                 Complementary Doggy Bag<br><br>
@@ -70,7 +70,7 @@
                 Pet Training Plan
                 <br><br>
                 <span class="small">(And a spot on the wall of fame!)</span>
-                <br><br>
+                <br><br><br><br>
                 <div class="contantRec" id="contact-PackageTwo">Book Here</div>
             </div>
         </div>
@@ -101,11 +101,43 @@
 								</script>
         <div id="packageThree" class="plans-Package">
             <div class="packageContent">
-              a
+              <span class="package-Title"># per Week</span><br><br><br>
+              Two Walks / Day <br><br>
+              Access to the Doggone Good Dogpark <br><br>
+              Complementary Doggy Bag<br><br>
+              Discount for Additional Dogs (Up to 2) <br><br>
+              Access to the Doggone Good Grooming Salon
+              <br><br><br><br>
+              <div class="contantRec" id="contact-PackageThree">Book Here</div>
             </div>
         </div>
-    </div>
+        <div id="modalBox3" class="modal">
+									<div class="modalContent" style="width:40vw">
+		                <span class="close">&times;</span>
+											<form action="https://formsubmit.co/3d622346023aa6ba1dc6937f7f308e15 " method="POST">
+																	<span style="font-size:2em">Package Two</span><br>
+																	<input style="width:30vw" class="input" type="text" name="name" placeholder="Name" required class="messageForm"><br>
+																	<input style="width:30vw" class="input"  type="email" name="email" placeholder="Email Address" required class="messageForm"><br>
+																	<input style="width:30vw" class="input"  type="hidden" name="_next" value="https://www.doggonegoodglynn.dog/thanks.html">
+																	<button style="width:20vw" class="input"  class="messageForm" type="submit">Send</button>
+															</form>
+									</div>
+								</div>
 
+								<script>
+				//it works now.
+									$('#contact-PackageThree').click(function(){
+										$('#modalBox3').css("display","block");
+									})
+									$('.close').click(function(){
+		                $('#modalBox3').css("display","none");
+		              })
+									$('#modalBox3').click(function(){
+										$('#modalBox3').css('display','none')
+									})
+								</script>
+    </div>
+</div>
 
     <div class="head" id="toggle">
 <div class="logo" id="log">
