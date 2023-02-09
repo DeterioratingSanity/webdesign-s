@@ -507,6 +507,7 @@ border-radius: var(--radius-5);
   font-weight: bold;
 	transition: 0.5s;
 	width: 50%;
+	margin: auto;
 }
 #contact-PackageOne:hover{
 	color:white;
