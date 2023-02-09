@@ -462,7 +462,7 @@ border-radius: var(--radius-5);
     #plans-Box{
       min-height:95vh;
       padding:5vh 5vw;
-      background-image:var(--gradient-7);
+      background-image:var(--gradient-24);
     }
     .plans-Package{
       background-color:white;
