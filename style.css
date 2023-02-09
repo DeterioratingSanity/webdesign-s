@@ -466,7 +466,6 @@ border-radius: var(--radius-5);
     }
     .plans-Package{
       background-color:white;
-      box-shadow:0 3px 7px black;
       overflow-Y: scroll;
       position:relative;
       left:50%;
@@ -479,13 +478,15 @@ border-radius: var(--radius-5);
         margin-top:3em;
     }
     #packageOne{
+      box-shadow:0 3px 7px black;
     }
 
     #packageTwo{
-        box-shadow:0 3px 7px rgb(238, 188, 29);
+        box-shadow:5px 5px 00FFFF;
     }
 
     #packageThree{
+      box-shadow:0 3px 7px black;
       padding-bottom:5vh;
     }
     .packageContent{
