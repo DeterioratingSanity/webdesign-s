@@ -57,9 +57,10 @@
         									//$('#modalBox1').click(function(){
         									//	$('#modalBox1').css('display','none')
         									//})
+										var modalOne = document.getElementByid("modalBox1");
 										window.onclick = function(event) {
-										  if (event.target == $('#modalBox1')) {
-										    $('#modalBox1').css('display','none');
+										  if (event.target == modalOne) {
+										     modal.style.display = "none";
 										  }
 										}
         								</script>
