@@ -478,14 +478,16 @@ border-radius: var(--radius-5);
         margin-top:3em;
     }
     #packageOne{
+      box-shadow:7px 7px #9D00FF;
       box-shadow:0 3px 7px black;
     }
 
     #packageTwo{
-        box-shadow:5px 5px #00FFFF;
+        box-shadow:7px 7px #00FFFF;
     }
 
     #packageThree{
+      box-shadow:7px 7px #FF5F1F;
       box-shadow:0 3px 7px black;
       padding-bottom:5vh;
     }
