@@ -481,7 +481,7 @@ border-radius: var(--radius-5);
       box-shadow:7px 7px #9D00FF;
     }
     #packageTwo{
-        box-shadow:7px 7px #00FFFF;
+        box-shadow:7px 7px #008443 /*#00FFFF*/;
     }
 
     #packageThree{
@@ -517,8 +517,8 @@ border-radius: var(--radius-5);
 }
 #contact-PackageTwo:hover{
 	color:white;
-	background-color:#00FFFF;
-	border: 3px solid #00FFFF;
+	background-color: #008443;
+	border: 3px solid #008443;
 	transition: 0.3s;
 }	
 #contact-PackageThree:hover{
