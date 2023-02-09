@@ -43,10 +43,7 @@
         																	<input style="width:30vw" class="input"  type="hidden" name="_next" value="https://www.doggonegoodglynn.dog/thanks.html">
         																	<button style="width:20vw" class="input"  class="messageForm" type="submit">Send</button>
         															</form>
-        									</div>
-        								</div>
-
-        								<script>
+        									</div><script>
         				//it works now.
         									$('#contact-PackageOne').click(function(){
         										$('#modalBox1').css("display","block");
@@ -57,13 +54,16 @@
         									//$('#modalBox1').click(function(){
         									//	$('#modalBox1').css('display','none')
         									//})
-										var modalOne = document.getElementByid("modalBox1");
-										window.onclick = function(event) {
-										  if (event.target == modalOne) {
-        		                $('#modalBox1').css("display","none");
-										  }
-										}
-        								</script>
+										$(document).click(function (e) {
+										    if ($(e.target).is('#openModal')) {
+											$('#openModal').fadeOut(500);
+										    }
+
+										});
+						</script>
+        								</div>
+
+        								
 
         <div id="packageTwo" class="plans-Package">
             <div class="packageContent">
