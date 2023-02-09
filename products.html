@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Doggone Good</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./images/core/fav.svg">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <head>
+
+  <body>
+    <div id="dropHead">
+      <span id="title-dropHead"><span class="frame-dropHead">D</span>oggone goo<span class="frame-dropHead">D</span> | products</span>
+    </div>
+
+    <div id="plans-Box">
+        <div id="packageOne" class="plans-Package">
+            <div class="packageContent">
+              <span class="package-Title"># per Week</span>
+              Two Walks / Day <br><br>
+              Access to the Doggone Good Dogpark <br><br>
+              Complementary Doggy Bag
+              <br><br>
+              <div class="contantRec" id="contact-PackageOne">Book Here</div>
+            </div>
+
+        </div>
+
+                    <div id="modalBox1" class="modal">
+        									<div class="modalContent" style="width:40vw">
+        		                <span class="close">&times;</span>
+        											<form action="https://formsubmit.co/3d622346023aa6ba1dc6937f7f308e15 " method="POST">
+        																	<span style="font-size:2em">Package One</span><br>
+        																	<input style="width:30vw" class="input" type="text" name="name" placeholder="Name" required class="messageForm"><br>
+        																	<input style="width:30vw" class="input"  type="email" name="email" placeholder="Email Address" required class="messageForm"><br>
+        																	<input style="width:30vw" class="input"  type="hidden" name="_next" value="https://www.doggonegoodglynn.dog/thanks.html">
+        																	<button style="width:20vw" class="input"  class="messageForm" type="submit">Send</button>
+        															</form>
+        									</div>
+        								</div>
+
+        								<script>
+        				//it works now.
+        									$('#contact-PackageOne').click(function(){
+        										$('#modalBox1').css("display","block");
+        									})
+        									$('.close').click(function(){
+        		                $('#modalBox1').css("display","none");
+        		              })
+        									$('#modalBox1').click(function(){
+        										$('#modalBox1').css('display','none')
+        									})
+        								</script>
+
+        <div id="packageTwo" class="plans-Package">
+            <div class="packageContent">
+                <span class="package-Title"># per Week</span>
+                Two Walks / Day <br><br>
+                Access to the Doggone Good Dogpark <br><br>
+                Complementary Doggy Bag<br><br>
+                Discount for Additional Dogs (Up to 4) <br><br>
+                Access to the Doggone Good Grooming Salon <br><br>
+                Individualized Pet Exercise Program <br><br>
+                Pet Training Plan
+                <br><br>
+                <span class="small">(And a spot on the wall of fame!)</span>
+                <br><br>
+                <div class="contantRec" id="contact-PackageTwo">Book Here</div>
+            </div>
+        </div>
+        <div id="modalBox2" class="modal">
+									<div class="modalContent" style="width:40vw">
+		                <span class="close">&times;</span>
+											<form action="https://formsubmit.co/3d622346023aa6ba1dc6937f7f308e15 " method="POST">
+																	<span style="font-size:2em">Package Three</span><br>
+																	<input style="width:30vw" class="input" type="text" name="name" placeholder="Name" required class="messageForm"><br>
+																	<input style="width:30vw" class="input"  type="email" name="email" placeholder="Email Address" required class="messageForm"><br>
+																	<input style="width:30vw" class="input"  type="hidden" name="_next" value="https://www.doggonegoodglynn.dog/thanks.html">
+																	<button style="width:20vw" class="input"  class="messageForm" type="submit">Send</button>
+															</form>
+									</div>
+								</div>
+
+								<script>
+				//it works now.
+									$('#contact-PackageTwo').click(function(){
+										$('#modalBox2').css("display","block");
+									})
+									$('.close').click(function(){
+		                $('#modalBox2').css("display","none");
+		              })
+									$('#modalBox2').click(function(){
+										$('#modalBox2').css('display','none')
+									})
+								</script>
+        <div id="packageThree" class="plans-Package">
+            <div class="packageContent">
+              a
+            </div>
+        </div>
+    </div>
+
+
+    <div class="head" id="toggle">
+<div class="logo" id="log">
+</div>
+<div id="trigger"></div>
+
+
+  <div class="marquee">
+    <div class="marquee__inner">
+      <span class="navWrap">
+        <span class="nav">
+          <span class='navOne den'>
+            Plans
+          </span>
+        </span>
+      </span>
+      <span class="navWrap">
+        <span class="nav">
+          <span class="navTwo den">
+            Reviews
+          </span>
+        </span>
+      </span>
+      <span class="navWrap">
+        <span class="nav">
+          <span class="navThree den">
+            Contact
+          </span>
+        </span>
+      </span>
+      <span class="navWrap">
+        <span class="nav">
+          <span class="navFive den">
+            About
+          </span>
+        </span>
+      </span>
+      <span class="navWrap">
+        <span class="nav">
+          <span class="navH den">
+            Home
+          </span>
+        </span>
+      </span>
+    </div>
+
+    <div class="marquee__inner">
+      <span class="navWrap">
+        <span class="nav">
+          <span class='navOne den'>
+            Plans
+          </span>
+        </span>
+      </span>
+      <span class="navWrap">
+        <span class="nav">
+          <span class="navTwo den">
+            Reviews
+          </span>
+        </span>
+      </span>
+      <span class="navWrap">
+        <span class="nav">
+          <span class="navThree den">
+            Contact
+          </span>
+        </span>
+      </span>
+      <span class="navWrap">
+        <span class="nav">
+          <span class="navFive den">
+            About
+          </span>
+        </span>
+      </span>
+      <span class="navWrap">
+        <span class="nav">
+          <span class="navH den">
+            Home
+          </span>
+        </span>
+      </span>
+    </div><div class="marquee__inner">
+  <span class="navWrap">
+    <span class="nav">
+      <span class='navOne den'>
+        Plans
+      </span>
+    </span>
+  </span>
+  <span class="navWrap">
+    <span class="nav">
+      <span class="navTwo den">
+        Reviews
+      </span>
+    </span>
+  </span>
+  <span class="navWrap">
+    <span class="nav">
+      <span class="navThree den">
+        Contact
+      </span>
+    </span>
+  </span>
+  <span class="navWrap">
+    <span class="nav">
+      <span class="navFive den">
+        About
+      </span>
+    </span>
+  </span>
+  <span class="navWrap">
+    <span class="nav">
+      <span class="navH den">
+        Home
+      </span>
+    </span>
+  </span>
+      </div>
+  </div>
+
+</div>
+
+<script src="script.js">
+</script>
+
+  <script>
+  TweenLite.defaultEase = Linear.easeNone;
+  var controller = new ScrollMagic.Controller();
+  var tl = new TimelineMax();
+  tl.from("section.panel.two", 1, {xPercent: 150});
+  tl.from("section.panel.three", 1, {yPercent: -150});
+  tl.from("section.panel.four", 1, {xPercent: -150});
+  tl.from("section.panel.five", 1, {xPercept: 50}); /**empty but fixes scroll discrepancy**/
+
+
+  new ScrollMagic.Scene({
+    triggerElement: "#pinMaster",
+    triggerHook: "onLeave",
+    duration: "200%"
+  })
+    .setPin("#pinMaster")
+    .setTween(tl)
+    .addTo(controller);
+
+  new ScrollMagic.Scene({
+    triggerElement: "#trigger"
+  })
+  .setTween("#log", 0.0001, {backgroundImage: "var(--gradient-15)"})
+  .addTo(controller);
+
+  new ScrollMagic.Scene({
+    triggerElement: "#trigger"
+  })
+  .setTween("#toggle", 0.0001, {backgroundImage: "none", position:"relative"})
+  .addTo(controller);
+
+  new ScrollMagic.Scene({
+    triggerElement: "#trigger"
+  })
+  .setTween(".marquee", 0.0001, {visibility: "visible"})
+  .addTo(controller);
+</script>
+  </body>
+</html>
