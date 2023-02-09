@@ -570,7 +570,7 @@ margin:10px;
   box-shadow: var(--shadow-4);  /* inner-shadow? */
   font-family:var(--font-sans);
 }
-#modalBox1.modalContent{
+#modalBox1 > .modalContent{
   box-shadow:7px 7px #9D00FF;
 }	
 #modalStuff{
