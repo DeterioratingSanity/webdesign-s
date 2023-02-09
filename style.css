@@ -571,10 +571,14 @@ margin:10px;
   box-shadow: var(--shadow-4);  /* inner-shadow? */
   font-family:var(--font-sans);
 }
+.modalContent button{
+	font-weight:bold;
+}
+
 #modalBox1  .modalContent{
   	box-shadow:7px 7px #9D00FF;
 }
-#modalBox1 .modalContent button{
+#modalBox1 .modalContent button:hover{
 	
 	color:white;
 	background-color:#9D00FF;
@@ -585,7 +589,7 @@ margin:10px;
 #modalBox2 .modalContent{
 	box-shadow:7px 7px #008443;
 }
-#modalBox2 .modalContent button{
+#modalBox2 .modalContent button:hover{
 	color:white;
 	background-color:#008443;
 	border: 3px solid #008443;
@@ -595,7 +599,7 @@ margin:10px;
 #modalBox3 .modalContent{
       box-shadow:7px 7px #FF5F1F;
 }
-#modalBox3 .modalContent button{
+#modalBox3 .modalContent button:hover{
 	color:white;
 	background-color:#FF5F1F;
 	border: 3px solid #FF5F1F;
