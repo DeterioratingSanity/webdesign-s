@@ -500,15 +500,13 @@ border-radius: var(--radius-5);
   padding-top:10px;
 }
 .contactRec{
-  position:relative;
-  text-align:center;
   font-size: var(--font-size-3);
   padding:10px;
-  width:80%;
-  margin:auto;
   border: 3px solid black;
   border-radius: var(--radius-round);
-}.modal{
+		
+}
+.modal{
   display: none;
   position: fixed;
   z-index: 5;
