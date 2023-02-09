@@ -517,6 +517,7 @@ border-radius: var(--radius-5);
 	width: 50%;
 	margin: auto;
   color:rgb(75, 75, 75 );
+	cursor: pointer;
 }
 .small{
 	font-size: var(--font-size-1);
@@ -574,6 +575,7 @@ margin:10px;
 .modalContent button{
 	font-weight:bold;
 	transition: 0.5s;
+	cursor: pointer;
 }
 
 #modalBox1  .modalContent{
