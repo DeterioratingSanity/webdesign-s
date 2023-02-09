@@ -54,9 +54,14 @@
         									$('.close').click(function(){
         		                $('#modalBox1').css("display","none");
         		              })
-        									$('#modalBox1').click(function(){
-        										$('#modalBox1').css('display','none')
-        									})
+        									//$('#modalBox1').click(function(){
+        									//	$('#modalBox1').css('display','none')
+        									//})
+										window.onclick = function(event) {
+										  if (event.target == $('#modalBox1')) {
+										    $('#modalBox1').css('display','none');
+										  }
+										}
         								</script>
 
         <div id="packageTwo" class="plans-Package">
