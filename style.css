@@ -510,6 +510,16 @@ border-radius: var(--radius-5);
 	background-color:#9D00FF;
 	border: 3px solid #9D00FF;
 }
+#contact-PackageTwo:hover{
+	color:white;
+	background-color:#00FFFF;
+	border: 3px solid #00FFFF;
+}	
+#contact-PackageThree:hover{
+	color:white;
+	background-color:#FF5F1F;
+	border: 3px solid #FF5F1F;
+}	
 .modal{
   display: none;
   position: fixed;
