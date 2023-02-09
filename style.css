@@ -573,6 +573,7 @@ margin:10px;
 }
 .modalContent button{
 	font-weight:bold;
+	transition: 0.5s;
 }
 
 #modalBox1  .modalContent{
