@@ -54,6 +54,7 @@
         									//$('#modalBox1').click(function(){
         									//	$('#modalBox1').css('display','none')
         									//})
+			    //https://stackoverflow.com/questions/37573608/how-to-make-modal-close-on-click-outside
 										$(document).click(function (e) {
 										    if ($(e.target).is('#modalBox1')) {
 											$('#modalBox1').css("display","none");
@@ -92,10 +93,7 @@
 																	<input style="width:30vw" class="input"  type="hidden" name="_next" value="https://www.doggonegoodglynn.dog/thanks.html">
 																	<button style="width:20vw" class="input"  class="messageForm" type="submit">Send</button>
 															</form>
-									</div>
-								</div>
-
-								<script>
+									</div><script>
 				//it works now.
 									$('#contact-PackageTwo').click(function(){
 										$('#modalBox2').css("display","block");
@@ -103,10 +101,16 @@
 									$('.close').click(function(){
 		                $('#modalBox2').css("display","none");
 		              })
-									$('#modalBox2').click(function(){
-										$('#modalBox2').css('display','none')
-									})
+									$(document).click(function (e) {
+										    if ($(e.target).is('#modalBox2')) {
+											$('#modalBox2').css("display","none");
+										    }
+
+										});
 								</script>
+								</div>
+
+								
         <div id="packageThree" class="plans-Package">
             <div class="packageContent">
 	      <span class="package-Head">Pupper Package</span><br>
@@ -130,10 +134,7 @@
 																	<input style="width:30vw" class="input"  type="hidden" name="_next" value="https://www.doggonegoodglynn.dog/thanks.html">
 																	<button style="width:20vw" class="input"  class="messageForm" type="submit">Send</button>
 															</form>
-									</div>
-								</div>
-
-								<script>
+									</div><script>
 				//it works now.
 									$('#contact-PackageThree').click(function(){
 										$('#modalBox3').css("display","block");
@@ -141,10 +142,16 @@
 									$('.close').click(function(){
 		                $('#modalBox3').css("display","none");
 		              })
-									$('#modalBox3').click(function(){
-										$('#modalBox3').css('display','none')
-									})
+									$(document).click(function (e) {
+										    if ($(e.target).is('#modalBox3')) {
+											$('#modalBox3').css("display","none");
+										    }
+
+										});
 								</script>
+								</div>
+
+								
     </div>
 </div>
 
