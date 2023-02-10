@@ -495,8 +495,8 @@ border-radius: var(--radius-5);
       z-index: 3;
       min-height:125vh;
       padding:5vh 5vw;
-      background-image:var(--gradient-24);/*
-      margin-bottom: -17vh;*/
+      background-image:var(--gradient-24);
+      margin-bottom: -20vh;
     }
 #dropHead-wrap{
 	position:relative;
