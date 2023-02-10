@@ -457,7 +457,7 @@ border-radius: var(--radius-5);
       margin-left:18vh;
     }
 #title-dropHead-img{
-	position:fixed;
+	position:absolute;
 	top:0;
 	left:0;
 	z-index:5;
