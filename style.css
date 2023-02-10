@@ -458,9 +458,9 @@ border-radius: var(--radius-5);
     }
     #title-dropHead-img::before{
       content: url('./images/home/paw.svg');;
-      display: block;
+      display: block;/*
       width: 15vh;
-      height: 15vh;
+      height: 15vh;*/
       background-color: white;
       border-radius: var(--radius-blob-2);
       animation: shift 5s var(--ease-in-out-3) alternate infinite;
