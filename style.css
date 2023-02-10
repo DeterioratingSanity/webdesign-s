@@ -477,7 +477,7 @@ border-radius: var(--radius-5);
     #toggle{
 	position:relative;
 	z-index:8;
-      padding-top: 17vh;
+      margin-top: 17vh;
     } 	    
     .frame-dropHead{
       vertical-align:middle;
