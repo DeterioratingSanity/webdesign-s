@@ -281,7 +281,7 @@
 
 <script src="script.js">
 </script>
-
+<!--
   <script>
   TweenLite.defaultEase = Linear.easeNone;
   var controller = new ScrollMagic.Controller();
@@ -313,17 +313,17 @@
   .setTween("#toggle", 0.0001, {backgroundImage: "none", position:"relative"})
   .addTo(controller);
 
- // new ScrollMagic.Scene({
- //   triggerElement: "#trigger"
- // })
- // .setTween("#dropHead", 0.0001, {visibility: "hidden"})
- // .addTo(controller);
+  new ScrollMagic.Scene({
+    triggerElement: "#trigger"
+  })
+  .setTween("#dropHead", 0.0001, {visibility: "hidden"})
+  .addTo(controller);
 
   new ScrollMagic.Scene({
     triggerElement: "#trigger"
   })
   .setTween(".marquee", 0.0001, {visibility: "visible"})
   .addTo(controller);
-</script>
+</script> -->
   </body>
 </html>
