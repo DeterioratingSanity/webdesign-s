@@ -456,8 +456,8 @@ border-radius: var(--radius-5);
       font-size: 6vmin;
       margin-left:18vh;
     }
-#title-dropHead-img{
-	position:fixed;
+#title-dropHead-img{/*
+	position:fixed;*/
 	top:0;
 	left:0;
 	z-index:5;
