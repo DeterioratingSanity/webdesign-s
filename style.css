@@ -357,7 +357,9 @@ border-radius: var(--radius-5);
     top: 52%;
     transform: translate(0,-52%);
 	  visibility: hidden;
-	padding-top:20vh;
+	/*padding-top:20vh;*/
+	
+	/*margin-top: -20vh;*/
 }
 
 
