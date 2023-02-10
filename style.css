@@ -457,11 +457,11 @@ border-radius: var(--radius-5);
       margin-left:18vh;
     }
 #title-dropHead-img{
-	position:absolute;
+	position:fixed;
 	top:0;
 	left:0;
 	z-index:5;
-	margin-bottom: -20vh;
+	margin-bottom: 20vh;
 }
     #title-dropHead-img::before{
       content: url('./images/home/paw.svg');;
@@ -484,7 +484,7 @@ border-radius: var(--radius-5);
     #toggle{
 	position:relative;
 	z-index:8;
-	margin-top: 20vh;
+	margin-top: -20vh;
     } 	    
     .frame-dropHead{
     }
