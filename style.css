@@ -489,7 +489,7 @@ border-radius: var(--radius-5);
       min-height:125vh;
       padding:5vh 5vw;
       background-image:var(--gradient-24);
-      margin-bottom: 17vh; 
+      margin-bottom: -17vh; 
     }
     .plans-Package{
       background-color:white;
