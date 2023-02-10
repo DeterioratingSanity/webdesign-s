@@ -469,7 +469,7 @@ border-radius: var(--radius-5);
       position: sticky; /* if sticky, allow top: ~1 for shift, -margin to prevent weird flow*/
       z-index:7;
       overflow:visible;
-      top:.75vh; /* .5 */
+      top:1vh; /* .5 */
       left:.5vh;
       border:5px solid #008443;
       margin-bottom: -17vh;
