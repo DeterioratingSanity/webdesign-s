@@ -477,6 +477,7 @@ border-radius: var(--radius-5);
     #toggle{
 	position:relative;
 	z-index:8;
+      margin-top: 17vh;
     } 	    
     .frame-dropHead{
       vertical-align:middle;
@@ -484,7 +485,6 @@ border-radius: var(--radius-5);
 
     #plans-Box{
     margin-top:20vh;
-    padding-top:17vh;
       position:relative;
       z-index: 3;
       min-height:125vh;
