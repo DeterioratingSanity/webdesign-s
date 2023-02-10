@@ -40,7 +40,7 @@ $('#ret').click(function(){
   return false;
 })
 
-$('#headTitle').click(function(){
+$('#title-dropHead-img').click(function(){
   window.open('./index.html', '_self');
   return false;
 })

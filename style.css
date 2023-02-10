@@ -422,14 +422,22 @@ border-radius: var(--radius-5);
 
 /* plans */
 
-
+    #top{
+      position:fixed;
+      top:0;
+      z-index:5;
+      height:3vh;
+      width:100vw;
+    }
     #dropHead{
-      position: relative;
+      position:fixed;
+      z-index: 1;
       top: 0;
       left: 0;
       width: 100vw;
       height: 20vh;
       background-image: var(--gradient-15);
+      margin-bottom:-20vh;
     }
     #title-dropHead{
       position: relative;
@@ -446,22 +454,33 @@ border-radius: var(--radius-5);
       font-weight: var(--font-weight-4);
       font-family: var(--font-serif);
       font-size: 6vmin;
+      margin-left:18vh;
     }
-    #title-dropHead::before{
+    #title-dropHead-img::before{
       content: url('./images/home/paw.svg');;
-      display: inline-block;
+      display: block;
       width: 15vh;
       height: 15vh;
       background-color: white;
       border-radius: var(--radius-blob-2);
+      animation: shift 5s var(--ease-in-out-3) alternate infinite;
       vertical-align: middle;
       margin: 10px;
+      position:fixed;
+      z-index:7;
+      overflow:visible;
+      top:.5vh;
+      left:.5vh;
+      border:5px solid #008443;
     }
     .frame-dropHead{
       vertical-align:middle;
     }
 
     #plans-Box{
+    margin-top:20vh;
+      position:relative;
+      z-index: 3;
       min-height:125vh;
       padding:5vh 5vw;
       background-image:var(--gradient-24);
@@ -633,8 +652,13 @@ margin:10px;
   text-decoration: none;
   cursor: pointer;
 }
+.break-Head{
+  display:none;
+}
 @media screen and (min-width: 1650px) and (min-height: 740px){
-
+  .break-Head{
+    display:inline;
+  }
   #packageOne{
     position:absolute;
                 left:15%;

@@ -15,10 +15,13 @@
   <head>
 
   <body>
-    <div id="dropHead">
-      <span id="title-dropHead"><span class="frame-dropHead">D</span>oggone goo<span class="frame-dropHead">D</span> | products</span>
-    </div>
-
+    <div id="top">
+</div>
+  <div  id="dropHead-wrap"><span id="title-dropHead-img"></span>
+      <div id="dropHead">
+        <span id="title-dropHead"><span class="break-Head"><span class="frame-dropHead">D</span>oggone goo<span class="frame-dropHead">D</span> </span>| plans</span>
+      </div>
+  </div>
     <div id="plans-Box">
         <div id="packageOne" class="plans-Package">
             <div class="packageContent">
@@ -158,7 +161,7 @@
     <div class="head" id="toggle">
 <div class="logo" id="log">
 </div>
-<div id="trigger"></div>
+<div id="trigger" style="margin-top:-20vh;"></div>
 
 
   <div class="marquee">
@@ -309,6 +312,12 @@
     triggerElement: "#trigger"
   })
   .setTween("#toggle", 0.0001, {backgroundImage: "none", position:"relative"})
+  .addTo(controller);
+
+  new ScrollMagic.Scene({
+    triggerElement: "#trigger"
+  })
+  .setTween("#dropHead", 0.0001, {visibility: "hidden"})
   .addTo(controller);
 
   new ScrollMagic.Scene({
