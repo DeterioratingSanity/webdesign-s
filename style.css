@@ -466,7 +466,7 @@ border-radius: var(--radius-5);
       animation: shift 5s var(--ease-in-out-3) alternate infinite;
       vertical-align: middle;
       margin: 10px;
-      position:fixed;
+      position: sticky;
       z-index:7;
       overflow:visible;
       top:.5vh;
