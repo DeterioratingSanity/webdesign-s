@@ -475,8 +475,8 @@ border-radius: var(--radius-5);
     }
     #toggle{
 	position:relative;
-	z-index:8;
-	margin-top: 17vh;
+	z-index:8;/*
+	margin-top: 17vh;*/
     } 	    
     .frame-dropHead{
     }
@@ -486,12 +486,13 @@ border-radius: var(--radius-5);
       z-index: 3;
       min-height:125vh;
       padding:5vh 5vw;
-      background-image:var(--gradient-24);
-      margin-bottom: -17vh;
-    }/*
+      background-image:var(--gradient-24);/*
+      margin-bottom: -17vh;*/
+    }
 #dropHead-wrap{
-	margin-bottom: -17vh;
-}*/
+	position:fixed;
+	margin-bottom:-20vh;
+}
     .plans-Package{
       background-color:white;
       overflow-Y: scroll;
