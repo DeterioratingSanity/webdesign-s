@@ -471,13 +471,13 @@ border-radius: var(--radius-5);
       overflow:visible;
       top:1vh; /* .5 */
       left:.5vh;
-      border:5px solid #008443;
-     margin-bottom: 17vh;
+      border:5px solid #008443;/*
+     margin-bottom: 17vh;*/
     }
     #toggle{
 	position:relative;
-	z-index:8;
-      margin-top: -17vh;
+	z-index:8;/*
+      margin-top: -17vh;*/
     } 	    
     .frame-dropHead{
       vertical-align:middle;
