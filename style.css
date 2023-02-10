@@ -357,7 +357,6 @@ border-radius: var(--radius-5);
     top: 52%;
     transform: translate(0,-52%);
 	  visibility: hidden;
-	margin-top: -17vh;
 }
 
 
