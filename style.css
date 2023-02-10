@@ -491,6 +491,7 @@ border-radius: var(--radius-5);
     }
 #dropHead-wrap{
 	position:absolute;
+	width: 100vw;
 	margin-bottom:-20vh;
 }
     .plans-Package{
