@@ -455,6 +455,8 @@ border-radius: var(--radius-5);
       font-family: var(--font-serif);
       font-size: 6vmin;
       margin-left:18vh;
+      position:fixed;
+      z-index:7;
     }
     #title-dropHead-img::before{
       content: url('./images/home/paw.svg');;
@@ -466,15 +468,13 @@ border-radius: var(--radius-5);
       animation: shift 5s var(--ease-in-out-3) alternate infinite;
       vertical-align: middle;
       margin: 10px;
-      position:fixed;
-      z-index:7;
       overflow:visible;
       top:.5vh;
       left:.5vh;
       border:5px solid #008443;
     }
     #toggle{
-	position:absolute;
+	position:relative;
 	z-index:8;
     } 	    
     .frame-dropHead{
