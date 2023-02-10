@@ -466,18 +466,18 @@ border-radius: var(--radius-5);
       animation: shift 5s var(--ease-in-out-3) alternate infinite;
       vertical-align: middle;
       margin: 10px;
-      position: sticky; /* if sticky, allow top: ~1 for shift, -margin to prevent weird flow*/
+      position: fixed; /* if sticky, allow top: ~1 for shift, -margin to prevent weird flow*/
       z-index:7;
       overflow:visible;
-      top:1vh; /* .5 */
+      top:.5vh; /* .5 */
       left:.5vh;
       border:5px solid #008443;
-      margin-bottom: -17vh;
+      /*margin-bottom: -17vh;*/
     }
     #toggle{
 	position:relative;
-	z-index:8;
-      margin-top: 17vh;
+	z-index:8;/*
+      margin-top: 17vh;*/
     } 	    
     .frame-dropHead{
       vertical-align:middle;
@@ -490,10 +490,10 @@ border-radius: var(--radius-5);
       min-height:125vh;
       padding:5vh 5vw;
       background-image:var(--gradient-24);
-    }
+    }/*
 #dropHead-wrap{
 	margin-bottom: -17vh;
-}
+}*/
     .plans-Package{
       background-color:white;
       overflow-Y: scroll;
