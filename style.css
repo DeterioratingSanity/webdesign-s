@@ -485,7 +485,8 @@ border-radius: var(--radius-5);
     }
 
     #plans-Box{
-      position:relative;
+      position:absolute;
+	    width:100vw;
       z-index: 3;
       min-height:125vh;
       padding:5vh 5vw;
