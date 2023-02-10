@@ -472,8 +472,8 @@ border-radius: var(--radius-5);
       top:1vh; /* .5 */
       left:.5vh;
       border:5px solid #008443;/*
-     margin-bottom: 17vh;*/
-      margin-bottom: 17vh;
+     margin-bottom: 17vh;
+      margin-bottom: 17vh;*/
     }
     #toggle{
 	position:relative;
@@ -488,8 +488,8 @@ border-radius: var(--radius-5);
       z-index: 3;
       min-height:125vh;
       padding:5vh 5vw;
-      background-image:var(--gradient-24);
-      margin-bottom: -17vh;
+      background-image:var(--gradient-24);/*
+      margin-bottom: -17vh;*/
     }/*
 #dropHead-wrap{
 	margin-bottom: -17vh;
