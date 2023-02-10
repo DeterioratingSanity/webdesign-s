@@ -466,12 +466,13 @@ border-radius: var(--radius-5);
       animation: shift 5s var(--ease-in-out-3) alternate infinite;
       vertical-align: middle;
       margin: 10px;
-      position: fixed; /* if sticky, allow top: ~1 for shift, -margin to prevent weird flow*/
+      position: sticky; /* if sticky, allow top: ~1 for shift, -margin to prevent weird flow*/
       z-index:7;
       overflow:visible;
-      top:.5vh;
+      top:1vh; /* .5 */
       left:.5vh;
       border:5px solid #008443;
+      margin-bottom: -20vh; 
     }
     #toggle{
 	position:relative;
