@@ -282,7 +282,10 @@
 <script src="script.js">
 </script>
 	  
-  <script>
+  <script>TweenLite.defaultEase = Linear.easeNone;
+    var controller = new ScrollMagic.Controller();
+    var tl = new TimelineMax();
+
   new ScrollMagic.Scene({
     triggerElement: "#trigger"
   })
