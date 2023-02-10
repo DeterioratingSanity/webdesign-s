@@ -313,17 +313,17 @@
   .setTween("#toggle", 0.0001, {backgroundImage: "none", position:"relative"})
   .addTo(controller);
 
+ // new ScrollMagic.Scene({
+ //   triggerElement: "#trigger"
+ // })
+ // .setTween("#dropHead", 0.0001, {visibility: "hidden"})
+ // .addTo(controller);
+
   new ScrollMagic.Scene({
     triggerElement: "#trigger"
   })
-  .setTween("#dropHead", 0.0001, {visibility: "hidden"})
+  .setTween(".marquee", 0.0001, {visibility: "visible"})
   .addTo(controller);
-//
-//  new ScrollMagic.Scene({
-//    triggerElement: "#trigger"
-//  })
-//  .setTween(".marquee", 0.0001, {visibility: "visible"})
-//  .addTo(controller);
 </script>
   </body>
 </html>
