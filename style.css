@@ -472,14 +472,12 @@ border-radius: var(--radius-5);
       top:1vh; /* .5 */
       left:.5vh;
       border:5px solid #008443;
-      margin-bottom: 17vh; 
+      margin-bottom: -17vh; 
     }
-#dropHead-wrap{
-}
     #toggle{
 	position:relative;
 	z-index:8;
-      margin-top: -17vh; 
+      margin-top: 17vh; 
     } 	    
     .frame-dropHead{
       vertical-align:middle;
