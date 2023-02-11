@@ -156,6 +156,35 @@ margin:auto;
   border-radius: var(--radius-4);
   font-family:var(--font-sans);
   overflow-y: scroll;
+}.icons{
+  fill:url('#linDef');
+  padding:20px;
+  height:10em;
+  width:10em;
+  transition:.5s;
+    margin-top:0;
+}
+@media screen and (min-width: 1600px){
+  .icons{
+    margin-top:10vh;
+    padding:10px;
+    height:11em;
+    width:11em;
+  }
+}
+.icons:hover{
+  transform: scale(1.15);
+}#icon1:hover{
+fill:url("#gradientA");
+}
+#icon2:hover{
+fill:url("#gradientB");
+}
+#icon3:hover{
+fill:url("#gradientC");
+}
+#icon4:hover{
+fill:url("#gradientD");
 }
 .holder{
   padding:1em 1.5em;
@@ -546,6 +575,9 @@ border-radius: var(--radius-5);
     }
     #about-dropHead-img::before{
       border:5px solid #1F51FF;
+    }
+    #contact-dropHead-img::before{
+      border:5px solid #9D00FF;
     }
     #toggle{
 	position:relative;
