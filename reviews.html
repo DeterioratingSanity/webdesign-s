@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Doggone Good</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./images/core/fav.svg">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <head>
+
+  <body>
+    <div id="top">
+    </div>
+    <div  id="dropHead-wrap"><span class="title-dropHead-img"></span>
+        <div id="dropHead">
+          <span id="title-dropHead"><span class="break-Head"><span class="frame-dropHead">D</span>oggone goo<span class="frame-dropHead">D</span> </span>| reviews</span>
+        </div>
+
+        <div style="position:relative;
+        z-index: 3;
+        height:100vh;
+        padding:5vh 5vw;
+        background-image:var(--gradient-1);
+        margin-top: 22vh;background-color:red;">
+
+          <div class="content" style="box-shadow: 10px 10px #1F51FF">
+            <div class="holder">
+              aaa<br>
+                aaa<br>
+                  aaa<br>
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+
+      <div class="head" id="toggle">
+  <div class="logo" id="log">
+  </div>
+  <div id="trigger" style="margin-top:-20vh;"></div>  <!--style="margin-top:-20vh;"-->
+
+    <div class="marquee">
+      <div class="marquee__inner">
+        <span class="navWrap">
+          <span class="nav">
+            <span class='navOne den'>
+              Plans
+            </span>
+          </span>
+        </span>
+        <span class="navWrap">
+          <span class="nav">
+            <span class="navTwo den">
+              Reviews
+            </span>
+          </span>
+        </span>
+        <span class="navWrap">
+          <span class="nav">
+            <span class="navThree den">
+              Contact
+            </span>
+          </span>
+        </span>
+        <span class="navWrap">
+          <span class="nav">
+            <span class="navFive den">
+              About
+            </span>
+          </span>
+        </span>
+        <span class="navWrap">
+          <span class="nav">
+            <span class="navH den">
+              Home
+            </span>
+          </span>
+        </span>
+      </div>
+
+      <div class="marquee__inner">
+        <span class="navWrap">
+          <span class="nav">
+            <span class='navOne den'>
+              Plans
+            </span>
+          </span>
+        </span>
+        <span class="navWrap">
+          <span class="nav">
+            <span class="navTwo den">
+              Reviews
+            </span>
+          </span>
+        </span>
+        <span class="navWrap">
+          <span class="nav">
+            <span class="navThree den">
+              Contact
+            </span>
+          </span>
+        </span>
+        <span class="navWrap">
+          <span class="nav">
+            <span class="navFive den">
+              About
+            </span>
+          </span>
+        </span>
+        <span class="navWrap">
+          <span class="nav">
+            <span class="navH den">
+              Home
+            </span>
+          </span>
+        </span>
+      </div><div class="marquee__inner">
+    <span class="navWrap">
+      <span class="nav">
+        <span class='navOne den'>
+          Plans
+        </span>
+      </span>
+    </span>
+    <span class="navWrap">
+      <span class="nav">
+        <span class="navTwo den">
+          Reviews
+        </span>
+      </span>
+    </span>
+    <span class="navWrap">
+      <span class="nav">
+        <span class="navThree den">
+          Contact
+        </span>
+      </span>
+    </span>
+    <span class="navWrap">
+      <span class="nav">
+        <span class="navFive den">
+          About
+        </span>
+      </span>
+    </span>
+    <span class="navWrap">
+      <span class="nav">
+        <span class="navH den">
+          Home
+        </span>
+      </span>
+    </span>
+        </div>
+    </div>
+
+  </div>
+
+  <script src="script.js">
+  </script>
+
+    <script>TweenLite.defaultEase = Linear.easeNone;
+      var controller = new ScrollMagic.Controller();
+      var tl = new TimelineMax();
+
+    new ScrollMagic.Scene({
+      triggerElement: "#trigger"
+   })
+    .setTween("#log", 0.0001, {backgroundImage: "var(--gradient-15)"})
+    .addTo(controller);
+
+    new ScrollMagic.Scene({
+      triggerElement: "#trigger"
+    })
+    .setTween("#toggle", 0.0001, {background: "white", position:"relative"})
+    .addTo(controller);
+
+    new ScrollMagic.Scene({
+      triggerElement: "#trigger"
+    })
+    .setTween("#dropHead", 0.0001, {visibility: "hidden"})
+    .addTo(controller);
+  //
+    new ScrollMagic.Scene({
+      triggerElement: "#trigger"
+    })
+    .setTween(".marquee", 0.0001, {visibility: "visible"})
+    .addTo(controller);
+  </script>
+    </body>
+  </html>

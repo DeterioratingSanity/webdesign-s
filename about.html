@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Doggone Good</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./images/core/fav.svg">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <head>
+
+  <body>
+    <div id="top">
+    </div>
+    <div  id="dropHead-wrap"><span class="title-dropHead-img" id="about-dropHead-img"></span>
+        <div id="dropHead">
+          <span id="title-dropHead"><span class="break-Head"><span class="frame-dropHead">D</span>oggone goo<span class="frame-dropHead">D</span> </span>| about</span>
+        </div>
+
+        <div style="position:relative;
+        z-index: 3;
+        height:100vh;
+        padding:5vh 5vw;
+        background-image:var(--gradient-25);
+        margin-top: 22vh;background-color:red;">
+
+          <div class="content" style="box-shadow: 10px 10px #1F51FF">
+            <div class="holder">
+
+              <button class="collapsible">About Us</button>
+              <div class="contentE"><br>
+                The Doggone Good Dog Walking Service was founded in 2021 by John, a native of the Golden Isles with a love for everything canine (Except the teeth!). In the last year, Doggone Good has hired walkers who manage the island neighborhood by neighborhood, while maintaining training, boarding, and grooming facilities out of the main building.
+                Pet dietitians and trainers supervise the care of, on average, 107 dogs each day, as well as conducting weekly seminars to clients. Further, John personally leads a monthly Orientation Club, taking new clients and canines on a tour of the premises.
+
+                <br><br>
+              </div>
+
+              <br>
+
+              <button class="collapsible">Project Background</button>
+              <div class="contentE"><br>
+                This website was made for the 2022 FBLA Web Design Competition. It utilizes several CSS and JS libraries: OpenProps by Adam Argyle (MIT License), TweenMax by GreenSock (No Charge GreenSock License), Scrollmax by Jan Paepke (MIT License), Flickity by Metafizzy (General Public License 3), FullCalendar (MIT License) and JQuery (MIT License).
+                All images used were categorized as "Free to Use" on Pexels, except for SVG silhouettes which were altered for-purpose. Mozilla Web Docs was used for reference in the design and development process, and in order to resolve matters of syntax.
+                <br><br>
+                All elements of the website (excluding images from Pexels) were created by this team for the purpose of this competition.
+                <br><br>
+              </div>
+
+            </div>
+          </div>
+
+          <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                  content.style.maxHeight = null;
+                  $(this).css("border-bottom-left-radius","var(--radius-4)");
+                  $(this).css("border-bottom-right-radius","var(--radius-4)");
+                } else {
+                  content.style.maxHeight = content.scrollHeight + "px";
+                  $(this).css("border-bottom-left-radius","var(--radius-1)");
+                  $(this).css("border-bottom-right-radius","var(--radius-1)");
+                }
+              });
+            }
+          </script>
+
+        </div>
+
+    </div>
+
+      <div class="head" id="toggle">
+  <div class="logo" id="log">
+  </div>
+  <div id="trigger" style="margin-top:-20vh;"></div>  <!--style="margin-top:-20vh;"-->
+
+    <div class="marquee">
+      <div class="marquee__inner">
+        <span class="navWrap">
+          <span class="nav">
+            <span class='navOne den'>
+              Plans
+            </span>
+          </span>
+        </span>
+        <span class="navWrap">
+          <span class="nav">
+            <span class="navTwo den">
+              Reviews
+            </span>
+          </span>
+        </span>
+        <span class="navWrap">
+          <span class="nav">
+            <span class="navThree den">
+              Contact
+            </span>
+          </span>
+        </span>
+        <span class="navWrap">
+          <span class="nav">
+            <span class="navFive den">
+              About
+            </span>
+          </span>
+        </span>
+        <span class="navWrap">
+          <span class="nav">
+            <span class="navH den">
+              Home
+            </span>
+          </span>
+        </span>
+      </div>
+
+      <div class="marquee__inner">
+        <span class="navWrap">
+          <span class="nav">
+            <span class='navOne den'>
+              Plans
+            </span>
+          </span>
+        </span>
+        <span class="navWrap">
+          <span class="nav">
+            <span class="navTwo den">
+              Reviews
+            </span>
+          </span>
+        </span>
+        <span class="navWrap">
+          <span class="nav">
+            <span class="navThree den">
+              Contact
+            </span>
+          </span>
+        </span>
+        <span class="navWrap">
+          <span class="nav">
+            <span class="navFive den">
+              About
+            </span>
+          </span>
+        </span>
+        <span class="navWrap">
+          <span class="nav">
+            <span class="navH den">
+              Home
+            </span>
+          </span>
+        </span>
+      </div><div class="marquee__inner">
+    <span class="navWrap">
+      <span class="nav">
+        <span class='navOne den'>
+          Plans
+        </span>
+      </span>
+    </span>
+    <span class="navWrap">
+      <span class="nav">
+        <span class="navTwo den">
+          Reviews
+        </span>
+      </span>
+    </span>
+    <span class="navWrap">
+      <span class="nav">
+        <span class="navThree den">
+          Contact
+        </span>
+      </span>
+    </span>
+    <span class="navWrap">
+      <span class="nav">
+        <span class="navFive den">
+          About
+        </span>
+      </span>
+    </span>
+    <span class="navWrap">
+      <span class="nav">
+        <span class="navH den">
+          Home
+        </span>
+      </span>
+    </span>
+        </div>
+    </div>
+
+  </div>
+
+  <script src="script.js">
+  </script>
+
+    <script>TweenLite.defaultEase = Linear.easeNone;
+      var controller = new ScrollMagic.Controller();
+      var tl = new TimelineMax();
+
+    new ScrollMagic.Scene({
+      triggerElement: "#trigger"
+   })
+    .setTween("#log", 0.0001, {backgroundImage: "var(--gradient-15)"})
+    .addTo(controller);
+
+    new ScrollMagic.Scene({
+      triggerElement: "#trigger"
+    })
+    .setTween("#toggle", 0.0001, {background: "white", position:"relative"})
+    .addTo(controller);
+
+    new ScrollMagic.Scene({
+      triggerElement: "#trigger"
+    })
+    .setTween("#dropHead", 0.0001, {visibility: "hidden"})
+    .addTo(controller);
+  //
+    new ScrollMagic.Scene({
+      triggerElement: "#trigger"
+    })
+    .setTween(".marquee", 0.0001, {visibility: "visible"})
+    .addTo(controller);
+  </script>
+    </body>
+  </html>
