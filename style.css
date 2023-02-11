@@ -190,11 +190,19 @@ transition: .5s background-color;
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease-out;
+  transition: max-height 0.4s ease-out;
   background-color: #f1f1f1;
   border-bottom-right-radius: var(--radius-4);
   border-bottom-left-radius: var(--radius-4);
   font-size: 1.3em;
+}
+.collapsible-nav{
+  font-size: 2em;
+  line-height:.5em;
+  font-family:var(--font-sans);
+  position:absolute;
+  right:45px;
+  transition: 0.3s;
 }
 #calendar{
   margin:auto;
