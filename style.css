@@ -172,6 +172,8 @@ margin:auto;
   font-size: 15px;
   border-top-right-radius: var(--radius-4);
   border-top-left-radius: var(--radius-4);
+  font-weight:bold;
+  font-size: 1.3em;
 
 transition: 0.2s;
 transition: .5s background-color;
@@ -192,6 +194,7 @@ transition: .5s background-color;
   background-color: #f1f1f1;
   border-bottom-right-radius: var(--radius-4);
   border-bottom-left-radius: var(--radius-4);
+  font-size: 1.3em;
 }
 #calendar{
   margin:auto;
@@ -704,6 +707,12 @@ margin:10px;
 
 }
 
+#aboutImage{
+    height:35vh;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
 
 
 #modalStuff{
