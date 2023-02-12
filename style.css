@@ -578,6 +578,9 @@ border-radius: var(--radius-5);
     #about-dropHead-img::before{
       border:5px solid #1F51FF;
     }
+    #rev-dropHead-img::before{
+      border:5px solid #FE5F55;
+    }
     #contact-dropHead-img::before{
       border:5px solid #9D00FF;
     }
