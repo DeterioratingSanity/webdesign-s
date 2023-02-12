@@ -139,8 +139,7 @@ margin:auto;
   min-width:400px;
   min-height:200px;
   background-color: white;
-  border-radius: var(--radius-4);
-  box-shadow: var(--shadow-4);  /* inner-shadow? */
+  border-radius: var(--radius-4);  /* inner-shadow? */
   font-family:var(--font-sans);
 }
 .content{
@@ -241,7 +240,6 @@ transition: .5s background-color;
 .reviewBlock{
 background-color: white;
   border-radius: var(--radius-4);
-  box-shadow: var(--shadow-4);
   font-family:var(--font-sans);
   display: flex;
   align-items: center;
@@ -313,7 +311,6 @@ background-color: white;
     margin:auto;
     background-color: white;
     border-radius: var(--radius-4);
-    box-shadow: var(--shadow-4);  /* inner-shadow? */
     font-family:var(--font-sans);
     margin:30px;
   }
@@ -821,7 +818,6 @@ margin:10px;
     margin:auto;
     background-color: white;
     border-radius: var(--radius-4);
-    box-shadow: var(--shadow-4);
     font-family:var(--font-sans);
     display: flex;
     align-items: center;
