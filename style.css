@@ -155,7 +155,8 @@ margin:auto;
   border-radius: var(--radius-4);
   font-family:var(--font-sans);
   overflow-y: scroll;
-}.icons{
+}
+.icons{
   fill:url('#linDef');
   padding:20px;
   height:10em;
