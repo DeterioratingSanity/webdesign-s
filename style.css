@@ -558,7 +558,7 @@ border-radius: var(--radius-5);
 	top:0;
 	left:0;
 	z-index:5;
-	margin-bottom: -20vh;
+	margin-bottom: -20vh;z-index:8;
 }
     .title-dropHead-img::before{
       content: url('./images/home/paw.svg');;
@@ -842,6 +842,8 @@ margin:10px;
           filter: revert;
           transition: .3s;
         }
+
+
 
 @media screen and (max-width: 1220px){
   .revWrap{

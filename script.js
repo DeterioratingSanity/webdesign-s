@@ -40,7 +40,19 @@ $('#ret').click(function(){
   return false;
 })
 
-$('#title-dropHead-img').click(function(){
+$('#prod-dropHead-img').click(function(){
+  window.open('./index.html', '_self');
+  return false;
+})
+$('#contact-dropHead-img').click(function(){
+  window.open('./index.html', '_self');
+  return false;
+})
+$('#about-dropHead-img').click(function(){
+  window.open('./index.html', '_self');
+  return false;
+})
+$('#rev-dropHead-img').click(function(){
   window.open('./index.html', '_self');
   return false;
 })
