@@ -797,19 +797,28 @@ margin:10px;
 
 .reviewHolder{
   font-size:2em;
+  position: absolute;
 }
 .review{
   min-height:100%;
 }
 .revWrap{
-      position:absolute;
-      top:55%;
-      right:15vw;
+      position:fixed;
+      top:50%;
+      left:80vw;
       transform: translate(0,-50%);
-      height:50vh;
-      overflow-y:scroll;
       border-radius: var(--radius-round);
-    }
+      background-color:white;
+      box-shadow: 10px 10px #FE5F55;
+    }/*
+    position:absolute;
+    top:50%;
+    right:15vw;
+    transform: translate(0,-50%);
+    height:50vh;
+    overflow-y:scroll;
+    border-radius: var(--radius-round);
+    background-color:white;*/
     .sectRev{
       content: '';
       display: block;
