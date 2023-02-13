@@ -23,13 +23,14 @@
         </div>
         <div style="position:relative;
         z-index: 3;
-        height:150vh;
+        min-height:100vh;
         padding:5vh 5vw;
         background-image:var(--gradient-22);
         margin-top: 22vh;
             "id="revBoxBox"><!--
-<div style="position:absolute;">-->
-          <div  class=" content" style="box-shadow: 10px 10px #FE5F55;overflow-y:scroll;position:fixed;"> <!--position:fixed;-->
+
+
+      <div  class=" content" style="box-shadow: 10px 10px #FE5F55;overflow-y:scroll;position:absolute;"> position:fixed;
             <div class="holder reviewHolder" id="rev1" >
 <div class="review">
     The best service in the Golden Isles - heard about them, signed up, and got Max introduced to the other dogs in a single day! I couldn't be happier with my experience at Doggone Good!<br>
@@ -55,42 +56,95 @@
       </div><br><br>
 
             </div>
-          </div><!--</div>-->
+          </div>
 
-          <div class='revWrap'><br>
-              <a class="sectRev" href="#rev1" id="navBut1"></a>
-              <a class="sectRev" href="#rev2" id="navBut2"></a>
-              <a class="sectRev" href="#rev3" id="navBut3"></a>
-              <a class="sectRev" href="#rev4" id="navBut4"></a>
-              <a class="sectRev" href="#rev5" id="navBut5"></a><br>
-              </div>
-</div>
+                    <div class='revWrap'><br>
+                        <a class="sectRev" href="#rev1" id="navBut1"></a>
+                        <a class="sectRev" href="#rev2" id="navBut2"></a>
+                        <a class="sectRev" href="#rev3" id="navBut3"></a>
+                        <a class="sectRev" href="#rev4" id="navBut4"></a>
+                        <a class="sectRev" href="#rev5" id="navBut5"></a><br>
+                        </div>
+        </div> --><br id="rev1"  class="revRef">
+    <div  class=" revCont" style="box-shadow: 10px 10px #FE5F55;">
+      <div class="holder reviewHolder">
+        The best service in the Golden Isles - heard about them, signed up, and got Max introduced to the other dogs in a single day! I couldn't be happier with my experience at Doggone Good!<br>
+    ★★★★   | Maggie J.
+      </div>
+    </div>
+
+      <br><br><br><br><br id="rev2" class="revRef">
+
+    <div  class=" revCont" style="box-shadow: 10px 10px #FE5F55;">
+      <div class="holder reviewHolder">
+        <span  id="revHi2"></span>We had just moved into the region and our new jobs kept us out of the house longer than we used to be. Only Doggone Good gave us the peace of mind to go out in the morning knowing that our dogs would be happily walked when we got home.<br>
+   ★★★★★ | Patrick H.
+      </div>
+    </div>
+
+      <br><br><br><br><br id="rev3" class="revRef">
+
+    <div  class=" revCont" style="box-shadow: 10px 10px #FE5F55;">
+      <div class="holder reviewHolder">
+        <span  id="revHi3"></span>Herbie made friends with the other dogs faster than we ever could've hoped - He gets all the running he needs in at the Doggone Good dog park, or at the beach when the walkers take him there, and with my
+    leg I couldn't hope to get him anywhere near that much activity. Doggone Good has given me peace of mind.<br>
+    ★★★★★ | Arthur J
+      </div>
+    </div>
+
+      <br><br><br><br><br id="rev4" class="revRef">
+
+    <div  class=" revCont" style="box-shadow: 10px 10px #FE5F55;">
+      <div class="holder reviewHolder">
+        <span  id="revHi4"></span>Excellent pet care, if a bit pricey.<br>
+   ★★★    | Gail Q.
+      </div>
+    </div>
+
+      <br><br><br><br><br id="rev5" class="revRef">
+
+    <div  class=" revCont" style="box-shadow: 10px 10px #FE5F55; margin-bottom:15vh;">
+      <div class="holder reviewHolder">
+        <span  id="revHi5"></span>Got their Gold Plan for my five good boys - Carlo, Mikey, Hopsy, Curveball, and Spike - and was amazed at how practical their group rates were. At any other service, I would've had to pay per-dog, but Doggone Good's plan system accounts
+      for that, and now all I need to worry about is trying not to adopt a sixth.<br id="revEnd">
+      ★★★★★ | Lorraine K.
+      </div>
+    </div><br><br><br>
+    <div class='revWrap' id="navop"><br>
+        <a class="sectRev" href="#rev1" id="navBut1"></a>
+        <a class="sectRev" href="#rev2" id="navBut2"></a>
+        <a class="sectRev" href="#rev3" id="navBut3"></a>
+        <a class="sectRev" href="#rev4" id="navBut4"></a>
+        <a class="sectRev" href="#rev5" id="navBut5"></a><br>
         </div>
-
+</div>
         <script>
             var controller = new ScrollMagic.Controller();
 
-            	new ScrollMagic.Scene({triggerElement: "#rev1", duration:400})
+            	new ScrollMagic.Scene({triggerElement: "#rev1", duration:600})
             					.setClassToggle("#navBut1", "active") // add class toggle
             					.addTo(controller);
-            	new ScrollMagic.Scene({triggerElement: "#revHi2", duration:440})
+            	new ScrollMagic.Scene({triggerElement: "#revHi2", duration:600})
             					.setClassToggle("#navBut2", "active") // add class toggle
             					.addTo(controller);
-            	new ScrollMagic.Scene({triggerElement: "#revHi3", duration:440})
+            	new ScrollMagic.Scene({triggerElement: "#revHi3", duration:600})
             					.setClassToggle("#navBut3", "active") // add class toggle
             					.addTo(controller);
-            	new ScrollMagic.Scene({triggerElement: "#revHi4", duration:200})
-            					.setClassToggle("#navBut4", "active") // add class toggle
-            					.addTo(controller);
-              new ScrollMagic.Scene({triggerElement: "#revHi5", duration:400})
-                      .setClassToggle("#navBut5", "active")
-                      .addTo(controller);
+            	new ScrollMagic.Scene({triggerElement: "#revHi4", duration:400})
+           					.setClassToggle("#navBut4", "active") // add class toggle
+           					.addTo(controller);
+             new ScrollMagic.Scene({triggerElement: "#revHi5", duration:1000})
+                     .setClassToggle("#navBut5", "active")
+                     .addTo(controller);
+             new ScrollMagic.Scene({triggerElement: "#revEnd"})
+                     .setTween(".revWrap", 0.0001, {position:"relative", marginTop:"-40vh", marginLeft:"-5vw"})
+                     .addTo(controller);
           </script>
 
           <div class="head" id="toggle">
       <div class="logo" id="log">
       </div>
-      <div id="trigger" style="margin-top:-20vh;"></div>  <!--style="margin-top:-20vh;"-->
+      <div id="trigger" style="margin-top:-20vh;"></div>
 
         <div class="marquee">
           <div class="marquee__inner">

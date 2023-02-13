@@ -803,7 +803,7 @@ margin:10px;
 }
 .revWrap{
       position:fixed;
-      top:50%;
+      top:57%;
       left:80vw;
       width:7em;
       height:50%;
@@ -858,6 +858,21 @@ margin:10px;
             background:var(--gradient-22);
             filter: revert;
             transition: .3s;
+    }
+    .revCont{
+      position:relative;
+      top:50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      width:50vw;
+      height:50vh;
+      min-width:400px;
+      min-height:200px;
+      background-color: white;
+      border-radius: var(--radius-4);
+      font-family:var(--font-sans);
+      overflow-y: scroll;
+      top:30vh;
     }
 
 
