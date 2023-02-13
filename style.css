@@ -800,7 +800,6 @@ margin:10px;
   position: absolute;
 }
 .review{
-  min-height:100%;
 }
 .revWrap{
       position:fixed;
@@ -854,7 +853,12 @@ margin:10px;
           filter: revert;
           transition: .3s;
         }
+    .active{
 
+            background:var(--gradient-22);
+            filter: revert;
+            transition: .3s;
+    }
 
 
 @media screen and (max-width: 1220px){

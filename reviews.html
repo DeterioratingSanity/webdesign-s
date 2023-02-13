@@ -34,21 +34,21 @@
 <div class="review">
     The best service in the Golden Isles - heard about them, signed up, and got Max introduced to the other dogs in a single day! I couldn't be happier with my experience at Doggone Good!<br>
     ★★★★   | Maggie J.
-</div><br><br id="rev2">
-<div class="review" >
+</div><br><br><br><br><br id="rev2">
+<div class="review"  id="revHi2">
     We had just moved into the region and our new jobs kept us out of the house longer than we used to be. Only Doggone Good gave us the peace of mind to go out in the morning knowing that our dogs would be happily walked when we got home.<br>
     ★★★★★ | Patrick H.
-</div><br><br id="rev3">
-<div class="review">
+</div><br><br><br><br><br id="rev3">
+<div class="review"id="revHi3">
     Herbie made friends with the other dogs faster than we ever could've hoped - He gets all the running he needs in at the Doggone Good dog park, or at the beach when the walkers take him there, and with my
     leg I couldn't hope to get him anywhere near that much activity. Doggone Good has given me peace of mind.<br>
     ★★★★★ | Arthur J
-</div><br><br id="rev4">
-<div class="review">
+</div><br><br><br><br><br id="rev4">
+<div class="review" id="revHi4">
     Excellent pet care, if a bit pricey.<br>
     ★★★    | Gail Q.
-  </div><br><br id="rev5">
-  <div class="review">
+  </div><br><br><br><br><br id="rev5">
+  <div class="review" id="revHi5">
       Got their Gold Plan for my five good boys - Carlo, Mikey, Hopsy, Curveball, and Spike - and was amazed at how practical their group rates were. At any other service, I would've had to pay per-dog, but Doggone Good's plan system accounts
       for that, and now all I need to worry about is trying not to adopt a sixth.<br>
       ★★★★★ | Lorraine K.
@@ -58,16 +58,34 @@
           </div><!--</div>-->
 
           <div class='revWrap'><br>
-              <a class="sectRev" href="#rev1"></a>
-              <a class="sectRev" href="#rev2"></a>
-              <a class="sectRev" href="#rev3"></a>
-              <a class="sectRev" href="#rev4"></a>
-              <a class="sectRev" href="#rev5"></a><br>
+              <a class="sectRev" href="#rev1" id="navBut1"></a>
+              <a class="sectRev" href="#rev2" id="navBut2"></a>
+              <a class="sectRev" href="#rev3" id="navBut3"></a>
+              <a class="sectRev" href="#rev4" id="navBut4"></a>
+              <a class="sectRev" href="#rev5" id="navBut5"></a><br>
               </div>
 </div>
         </div>
 
+        <script>
+            var controller = new ScrollMagic.Controller();
 
+            	new ScrollMagic.Scene({triggerElement: "#rev1", duration:400})
+            					.setClassToggle("#navBut1", "active") // add class toggle
+            					.addTo(controller);
+            	new ScrollMagic.Scene({triggerElement: "#revHi2", duration:440})
+            					.setClassToggle("#navBut2", "active") // add class toggle
+            					.addTo(controller);
+            	new ScrollMagic.Scene({triggerElement: "#revHi3", duration:440})
+            					.setClassToggle("#navBut3", "active") // add class toggle
+            					.addTo(controller);
+            	new ScrollMagic.Scene({triggerElement: "#revHi4", duration:200})
+            					.setClassToggle("#navBut4", "active") // add class toggle
+            					.addTo(controller);
+              new ScrollMagic.Scene({triggerElement: "#revHi5", duration:400})
+                      .setClassToggle("#navBut5", "active")
+                      .addTo(controller);
+          </script>
 
           <div class="head" id="toggle">
       <div class="logo" id="log">
