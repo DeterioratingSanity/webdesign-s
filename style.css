@@ -853,7 +853,7 @@ margin:10px;
           filter: revert;
           transition: .3s;
         }
-    .active{
+    .activeRev{
 
             background:var(--gradient-22);
             filter: revert;
