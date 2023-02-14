@@ -167,7 +167,8 @@ margin:auto;
   background-color:red;
 }
 .icons{
-  fill:url('#linDef');
+
+  filter:grayscale(100%)
   padding:20px;
   height:10em;
   width:10em;
@@ -184,17 +185,37 @@ margin:auto;
 }
 .icons:hover{
   transform: scale(1.15);
-}#icon1:hover{
+}#icon1{
 fill:url("#gradientA");
+filter:grayscale(100%);
+}
+#icon2{
+fill:url("#gradientB");
+filter:grayscale(100%);
+}
+#icon3{
+fill:url("#gradientC");
+filter:grayscale(100%);
+}
+#icon4{
+fill:url("#gradientD");
+filter:grayscale(100%);
+}
+#icon1:hover{
+fill:url("#gradientA");
+filter:grayscale(0);
 }
 #icon2:hover{
 fill:url("#gradientB");
+filter:grayscale(0);
 }
 #icon3:hover{
 fill:url("#gradientC");
+filter:grayscale(0);
 }
 #icon4:hover{
 fill:url("#gradientD");
+filter:grayscale(0);
 }
 .holder{
   padding:1em 1.5em;
