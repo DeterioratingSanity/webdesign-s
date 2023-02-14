@@ -751,7 +751,27 @@ margin:10px;
 	transition: 0.5s;
 	cursor: pointer;
 }
-
+#ret{
+  background-color:white;
+  transition:.5s;
+  box-shadow: 7px 7px var(--gray-7);
+}
+#baq{
+  background-color:white;
+  transition:.5s;
+  box-shadow: 7px 7px #9D00FF;
+}
+#ret:hover{
+  color:white;
+  background-color:var(--gray-7);
+  transition:.3s;
+  box-shadow: 7px 7px white;
+}#baq:hover{
+  color:white;
+  background-color:#9D00FF;
+  transition:.3s;
+  box-shadow: 7px 7px white;
+}
 #modalBox1  .modalContent{
   	box-shadow:7px 7px #9D00FF;
 }
@@ -874,7 +894,7 @@ margin:10px;
           filter: revert;
           transition: .3s;
         }
-    .activeRev{
+    .active{
 
             background:var(--gradient-22);
             filter: revert;

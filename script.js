@@ -39,6 +39,10 @@ $('#ret').click(function(){
   window.open('./index.html', '_self');
   return false;
 })
+$('#baq').click(function(){
+  window.open('./contact.html', '_self');
+  return false;
+})
 
 $('#prod-dropHead-img').click(function(){
   window.open('./index.html', '_self');
