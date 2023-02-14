@@ -122,19 +122,19 @@
             var controller = new ScrollMagic.Controller();
 
             	new ScrollMagic.Scene({triggerElement: "#rev1", duration:600})
-            					.setClassToggle("#navBut1", "active") // add class toggle
+            					.setClassToggle("#navBut1", "activeRev") // add class toggle
             					.addTo(controller);
             	new ScrollMagic.Scene({triggerElement: "#revHi2", duration:600})
-            					.setClassToggle("#navBut2", "active") // add class toggle
+            					.setClassToggle("#navBut2", "activeRev") // add class toggle
             					.addTo(controller);
             	new ScrollMagic.Scene({triggerElement: "#revHi3", duration:600})
-            					.setClassToggle("#navBut3", "active") // add class toggle
+            					.setClassToggle("#navBut3", "activeRev") // add class toggle
             					.addTo(controller);
             	new ScrollMagic.Scene({triggerElement: "#revHi4", duration:400})
-           					.setClassToggle("#navBut4", "active") // add class toggle
+           					.setClassToggle("#navBut4", "activeRev") // add class toggle
            					.addTo(controller);
              new ScrollMagic.Scene({triggerElement: "#revHi5", duration:1000})
-                     .setClassToggle("#navBut5", "active")
+                     .setClassToggle("#navBut5", "activeRev")
                      .addTo(controller);
              new ScrollMagic.Scene({triggerElement: "#revEnd"})
                      .setTween(".revWrap", 0.0001, {position:"relative", marginTop:"-40vh", marginLeft:"-5vw"})
